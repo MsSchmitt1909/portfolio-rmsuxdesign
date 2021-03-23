@@ -1,0 +1,152 @@
+/*
+Colors used:
+Primary Color ()
+Colors in Hex
+.green-hex { color: #9AADA1; }
+.peach-hex { color: #FAD7C5; }
+.blue-hex { color: #7895AD; } {darker state color: #667F94}
+.lightblue-hex { color: #B9DCFA; }
+.off-white-hex { color: #FAF7F2; }
+.off-black-hex { color: #3A4854; }
+
+Color Theme Swatches in RGBA
+.green-rgba { color: rgba(154, 173, 161, 1); }
+.peach-rgba { color: rgba(250, 215, 197, 1); }
+.blue-rgba { color: rgba(120, 149, 173, 1); }
+.lightblue-rgba { color: rgba(185, 220, 250, 98); }
+.off-white-rgba { color: rgba(250, 247, 242, 1); }
+.off-black-rgba { color: rgba(58, 72, 84, 1); }
+
+Color Theme Swatches in HSLA
+.green-hsla { color: hsla(142, 10, 64, 1); }
+.peach-hsla { color: hsla(20, 84, 87, 1); }
+.blue-hsla { color: hsla(207, 24, 57, 1); }
+.off-white-hsla { color: hsla(37, 44, 96, 1); }
+.off-black-hsla { color: hsla(207, 18, 27, 1); } */
+
+body {
+  background-color: #fafafa;
+  font-family: 'Puritan', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 400; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #3A4854;
+  }
+
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+  h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+    color: #FAD7C5;
+  }
+
+  h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+    color: #7895AD;
+  }
+
+  h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+    color: #9AADA1;
+  }
+  h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a {
+  color: #7895AD;
+  text-decoration: none; /* No underlining */
+}
+
+a:visited { /* visited link */
+  color: #B9DCFA;
+}
+a:hover,
+a:focus {
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+  color: #B9DCFA;
+}
+
+#header {
+  background-color: #9AADA1;
+}
+
+#hero {
+  background-color: #9AADA1;
+}
+
+#main {
+  background-color:  #FAF7F2;
+}
+
+#contact {
+  background-color: #FAD7C5;
+}
+
+.copyright {
+  background-color: #9AADA1;
+  color: #3A4854;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+/*needs to be at the bottom as it's very specific */
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #7895AD;
+  color: #FaF7F2; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #667F94; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: underline;
+}
+.button:active {
+  background-color: #B9DCFA;
+  border-radius: 12px;
+}
+.button.contact {
+  background-color: transparent;
+  color: #7895AD;
+  text-transform: uppercase;
+  border: 2px solid #7895AD;
+}
+.button.contact:hover {
+  background-color: #7895AD;
+  color: #FAF7F2;
+}
+
+.button.contact:active {
+  opacity: 0.6;
+  border-radius: 12px;
+}
+.button.cv {
+  background-color: #7895AD;
+  color: #FAF7F2;
+  text-transform: uppercase;
+  border: 2px solid ##667F94;
+}
+.button.cv:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: underline;
+}
+
+.button.cv:active {
+  opacity: 0.6;
+  border-radius: 18px;
+}
