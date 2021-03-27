@@ -24,6 +24,10 @@ Color Theme Swatches in HSLA
 .off-white-hsla { color: hsla(37, 44, 96, 1); }
 .off-black-hsla { color: hsla(207, 18, 27, 1); } */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #fafafa;
   font-family: 'Puritan', sans-serif;
@@ -58,6 +62,10 @@ body {
     font-weight: 400;
   }
 
+  #hero h1 {
+  text-align: center; /* Centers text */
+}
+
   img {
     width: 100%;
   }
@@ -67,6 +75,10 @@ body {
   text-decoration: none; /* No underlining */
 }
 
+p {
+  margin: 0;
+  display: inline-block;
+}
 a:visited { /* visited link */
   color: #B9DCFA;
 }
@@ -80,25 +92,142 @@ a:active { /* selected link */
 
 #header {
   background-color: #9AADA1;
+  padding: 0.625em;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.7);
 }
 
 #hero {
   background-color: #9AADA1;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 #main {
   background-color:  #FAF7F2;
+  padding-top: 102px;
 }
 
 #contact {
   background-color: #FAD7C5;
 }
 
+/* layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #9AADA1; }
+
+#linkedin {
+  width: 10%;
+  min-width: 40px;
+}
+
+#insta {
+  width: 10%;
+  min-width: 40px;
+}
+
+#twitter {
+  width: 10%;
+  min-width: 40px;
+}
+
+#facebook {
+  width: 10%;
+  min-width: 40px;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FAF7F2;
+}
+
+nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+nav > ul > li > a:active {
+  color: #FAD7C5;
+  text-decoration: underline;
+}
+
+nav > ul > li > a:visited {
+  color: #B9DCFA;
+}
+
 .copyright {
   background-color: #9AADA1;
+  padding: 0 15px;
   color: #3A4854;
   font-size: 0.8em;
   font-weight: 300;
+}
+
+.copyright > ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.socialmedia > ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.socialmedia > ul > li {
+  display: inline-block;
+}
+
+.socialmedia > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #3A4854;
+}
+
+.socialmedia > ul > li > a:visited {
+  color: #667F94;
+}
+
+.socialmedia > ul > li > a:active {
+  color: #667F94;
+  text-decoration: underline;
+}
+
+.socialmedia > ul > li > a:hover {
+  text-decoration: underline;
 }
 
 /*needs to be at the bottom as it's very specific */
@@ -123,6 +252,9 @@ a:active { /* selected link */
 .button.contact {
   background-color: transparent;
   color: #7895AD;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-transform: uppercase;
   border: 2px solid #7895AD;
 }
@@ -137,8 +269,12 @@ a:active { /* selected link */
 }
 .button.cv {
   background-color: #7895AD;
+  margin: auto 0;
+  padding-left: 40px;
+  padding-right: 40px;
   color: #FAF7F2;
   text-transform: uppercase;
+  text-align: center;
   border: 2px solid ##667F94;
 }
 .button.cv:hover {

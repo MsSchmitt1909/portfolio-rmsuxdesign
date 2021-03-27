@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -25,22 +25,24 @@
 <body>
   <!-- Header content starts here -->
   <header id="header">
-    <a href="index.html">
-      <img src="img/logo.svg" alt="logo">
-    </a>
-    <nav>
-      <ul>
-        <li><a href="about_rms.html">About</a></li>
-        <li><a href="index.html">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <a href="index.html">
+        <img src="img/logo.svg" alt="logo" class="logo">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="about_rms.html">About</a></li>
+          <li><a href="index.html">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <!-- Header content ends -->
   <!-- Main content starts here -->
   <main id="main">
     <!-- For the hero section -->
-    <div>
+    <div class="container">
       <picture>
         <source media="(max-width:767px)" srcset="img/wodhunt/wodhuntmockuptitle.jpg">
         <img src="img/wodhunt/wodhuntmockuptitle@2x.jpg" alt="WOD Hunt">
@@ -58,7 +60,7 @@
     </div>
     <!--  Hero section ends -->
     <!-- Case study content starts here -->
-    <div>
+    <div class="container">
       <!-- Story section starts -->
       <div>
         <picture>
@@ -355,14 +357,15 @@
 
   <!-- Footer content starts here -->
   <footer id="contact">
-    <div>
+    <div class="container">
       <!-- container/wrapper of footer -->
       <h2> Get in touch </h2>
       <p> Do you like my work and want to discuss opportunities? Please reach out. Call me on <a
           href="skype:live:.cid.4e599abd0225142d">Skype</a> or use any of the channels below.
       </p>
     </div>
-    <section>   <!-- all contact options in 3 column row -->
+    <section class="container">
+      <div class="row"><!-- all contact options in 3 column row -->
         <div> <!-- open first column -->
           <p> 123 Mockup Street </p>
             <br> 12345 Mockup City, Germany </br>
@@ -370,6 +373,7 @@
         </div> <!-- end of first column -->
         <div> <!-- open second column -->
           <a href="mailto:rmsUXdesign@gmail.com" class="button contact">Email me</a> <!-- CTA button -->
+        <div class="socialmedia">
           <ul>
             <!-- Social media layout and placeholders for buttons -->
             <li><a href="https://www.linkedin.com" target="_blank">
@@ -387,7 +391,7 @@
                 </svg>
               </a></li>
             <li><a href="https://www.instagram.com" target="_blank">
-                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                <svg version="1.1" id="insta" xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.7 56.7"
                   enable-background="new 0 0 56.7 56.7" xml:space="preserve">
                   <g>
@@ -402,7 +406,7 @@
                 </svg>
               </a></li>
             <li><a href="https://twitter.com" target="_blank">
-                <svg data-name="Layer 1" id="Layer_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                <svg data-name="Layer 1" id="twitter" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <style>
                       .cls-1 {
@@ -416,7 +420,7 @@
                 </svg>
               </a></li>
             <li><a href="https://www.facebook.com" target="_blank">
-                <svg data-name="Layer 1" id="Layer_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                <svg data-name="Layer 1" id="facebook" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <style>
                       .cls-1 {
@@ -468,12 +472,17 @@
                       Message</button>
                   </div>
               </div> <!-- end of third column -->
+      </div>
     </section> <!-- end of all contact options -->
-    <span class="copyright">
-      <p> Copyright Ritva Maija Schmitt 2021. All rights reserved.</p>
-      <p> Privacy Policy </p>
-      <p> Terms of Service </p>
-    <span>
+    <span class="container">
+      <div class="copyright">
+        <ul>
+          <li> Copyright Ritva Maija Schmitt 2021. All rights reserved.</li>
+          <li> Privacy Policy </li>
+          <li> Terms of Service </li>
+        </ul>
+      </div>
+    </span>
   </footer>
   <!-- Footer content ends -->
 </body>
