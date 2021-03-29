@@ -44,12 +44,14 @@ body {
     font-size: 2.75em;
     font-weight: 700;
     color: #FAD7C5;
+    text-align: center;
   }
 
   h2 {
     font-size: 2.25em;
     font-weight: 700;
     color: #7895AD;
+    text-align: center;
   }
 
   h3 {
@@ -76,7 +78,7 @@ body {
 }
 
 p {
-  margin: 0;
+  margin: 10px;
   display: inline-block;
 }
 a:visited { /* visited link */
@@ -97,6 +99,7 @@ a:active { /* selected link */
   display: inline-block;
   position: fixed;
   width: 100%;
+  max-height: fit-content;
   box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.7);
 }
 
@@ -126,24 +129,10 @@ a:active { /* selected link */
 }
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #9AADA1; }
 
-#linkedin {
-  width: 10%;
+#socialmedia {
+  max-width: 10%;
   min-width: 40px;
-}
-
-#insta {
-  width: 10%;
-  min-width: 40px;
-}
-
-#twitter {
-  width: 10%;
-  min-width: 40px;
-}
-
-#facebook {
-  width: 10%;
-  min-width: 40px;
+  display: inline-block;
 }
 
 .logo {
@@ -199,34 +188,34 @@ nav > ul > li > a:visited {
   width: 100%;
 }
 
-.socialmedia > ul {
+.socials > ul {
   list-style-type: none;
   padding: 0;
   display: inline-block;
   width: 100%;
 }
 
-.socialmedia > ul > li {
+.socials > ul > li {
   display: inline-block;
 }
 
-.socialmedia > ul > li > a {
+.socials > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #3A4854;
 }
 
-.socialmedia > ul > li > a:visited {
+.socials> ul > li > a:visited {
   color: #667F94;
 }
 
-.socialmedia > ul > li > a:active {
+.socials > ul > li > a:active {
   color: #667F94;
   text-decoration: underline;
 }
 
-.socialmedia > ul > li > a:hover {
+.socials > ul > li > a:hover {
   text-decoration: underline;
 }
 
