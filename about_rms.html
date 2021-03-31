@@ -14,7 +14,7 @@
       <meta name="msapplication-TileColor" content="#da532c">
       <meta name="theme-color" content="#ffffff">
   </head>
-  <body>
+  <body id="about_rms">
     <!-- Header content starts here -->
   <header id="header">
     <div class="container">
@@ -25,7 +25,7 @@
         <ul>
           <li><a href="about_rms.html">About</a></li>
           <li><a href="index.html">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#getintouch">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -34,32 +34,34 @@
   <!-- For the main section -->
   <main id="main">
     <div class="container">
-      <div class="row"> <!-- open left column: round pic -->
-        <picture>
-          <source srcset="img/maijagreen.jpg" media="(min-width:465px)">
-          <source srcset="img/maijagreen@2x.jpg" media="(max-width:767px)">
-          <img src="img/maijagreen@2x.jpg" alt="MaijaSchmitt">
-        </picture>
-      </div> <!-- end of left column -->
-      <div> <!-- open right column -->
+      <div class="row">
+        <div>
+          <picture>
+            <source srcset="img/maijagreen.jpg" media="(min-width:465px)">
+            <source srcset="img/maijagreen@2x.jpg" media="(max-width:767px)">
+            <img src="img/maijagreen@2x.jpg" alt="MaijaSchmitt">
+          </picture>
+        </div>
+      </div>
+      <div>
         <h1> About </h1>
         <span> I’m Maija. UX Designer.
           <br> But also teacher trainer, CrossFitter, book lover, nature enthusiast and I think we all need better apps in our lives. </br></span>
-      </div>  <!-- end right column -->
+      </div> 
 
       <div>
         <div>
           <picture>
           </picture>
           <div class="row"> <!-- row of columns -->
-            <div> <!-- left column -->
+            <div class="col-md-6"> <!-- left column -->
               <h2> My Story </h2>
-              <p> I’m a UX designer with a background in teaching secondary school and mentoring teacher training workshops about Gender & Diversity. I’m looking to further my career by working as a UX designer in the fields of language learning/teaching or fitness/sports as these comprise my passion and expertise. </>
-              <p> After some time in the teaching position, I wanted to focus more on the benefits of digitalization in the classroom and sports and scale my abilities and experience to make learning simpler and more attractive as well as accessible. </p>
-              <p> By using my background in education, my creativity and passion for learning & exercise, I want to build simple yet satisfying user experiences and product solutions. </p>
-              <a href="files/maijaschmittcv.pdf" target="_blank" class="button cv">CV</a>
+                <p> I’m a UX designer with a background in teaching secondary school and mentoring teacher training workshops about Gender & Diversity. I’m looking to further my career by working as a UX designer in the fields of language learning/teaching or fitness/sports as these comprise my passion and expertise. </>
+                <p> After some time in the teaching position, I wanted to focus more on the benefits of digitalization in the classroom and sports and scale my abilities and experience to make learning simpler and more attractive as well as accessible. </p>
+                <p> By using my background in education, my creativity and passion for learning & exercise, I want to build simple yet satisfying user experiences and product solutions. </p>
+                <a href="files/maijaschmittcv.pdf" target="_blank" class="button cv">CV</a>
             </div>
-            <div> <!-- right column -->
+            <div class="col-md-6"> <!-- right column -->
               <h2> Skills and Tools </h2>
               <div>
                   <div>
@@ -89,7 +91,7 @@
     </main>
 
     <!-- For the footer -->
-    <footer class="getintouch">
+    <footer id="getintouch">
       <div>
         <!-- container/wrapper of footer -->
         <h2> Get in touch </h2>
@@ -99,12 +101,12 @@
       </div>
       <section class="container">
         <div class="row"><!-- all contact options in 3 column row -->
-          <div> <!-- open first column -->
+          <div class="col-md-3"> <!-- open first column -->
             <p> 123 Mockup Street </p>
               <br> 12345 Mockup City, Germany </br>
               <br> <a href="tel:+491231234567">+49 123 1234567</a></br>
           </div> <!-- end of first column -->
-          <div> <!-- open second column -->
+          <div class="col-md-3"> <!-- open second column -->
             <a href="mailto:rmsUXdesign@gmail.com" class="button contact">Email me</a> <!-- CTA button -->
             <div class="socials">
               <ul>
@@ -148,7 +150,7 @@
               </ul> <!-- end of social media layout & second column -->
           </div>
           </div>
-          <div> <!-- open third column = contact form -->
+          <div class="col-md-3"> <!-- open third column = contact form -->
             <link href="contact-form.css" rel="stylesheet">
             <div class="fcf-body">
               <div id="fcf-form">
@@ -181,15 +183,15 @@
                 </div> <!-- end of third column -->
         </div>
       </section> <!-- end of all contact options -->
-        <div class="copyright">
-          <ul>
-            <li> Copyright Ritva Maija Schmitt 2021. All rights reserved.</li>
-            <li> Privacy Policy </li>
-            <li> Terms of Service </li>
-          </ul>
-        </div>
     </footer>
-
+    <!-- Footer content ends -->
+    <div class="copyright">
+      <ul>
+        <li> Copyright Ritva Maija Schmitt 2021. All rights reserved.</li>
+        <li> Privacy Policy </li>
+        <li> Terms of Service </li>
+      </ul>
+    </div>
   </body>
-
-</html>
+  
+  </html>
