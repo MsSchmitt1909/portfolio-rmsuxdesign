@@ -156,6 +156,7 @@ nav ul > li > a {
   text-transform: uppercase;
   font-weight: 700;
   color: #FAF7F2;
+  position: relative;
 }
 
 nav ul > li > a:hover {
