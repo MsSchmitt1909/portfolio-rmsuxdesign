@@ -614,13 +614,43 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
 
 
 @keyframes birdloright-move {
-  from {transform: translate(-150.54297 -170.14522);}
-  to {transform: translate(-900px, -170.14522px);}
+  from {
+    transform: translate(-400px, 0px);
+  }
+  to {
+    transform: translate(-600px, 0px);
+  }
+}
+
+@keyframes birdhiright-move {
+  from {
+    transform: translate(-300px, 0px);
+  }
+  to {
+    transform: translate(-750px, 0px);
+  }
+}
+
+@keyframes birdhileft-move {
+  from {
+    transform: translate(-100px, -100px);
+  }
+  to {
+    transform: translate(-350px, -100px);
+  }
 }
 
 .birdloright {
   animation: 6s birdloright-move infinite alternate linear;
 }
+
+.birdhiright {
+  animation: 6s birdhiright-move infinite alternate linear;
+}
+.birdhileft {
+  animation: 3s birdhileft-move infinite alternate linear;
+}
+
 
 @keyframes belly-expand {
   transform: scale (1.25, 1.25)
