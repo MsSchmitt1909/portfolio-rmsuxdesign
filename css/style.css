@@ -95,7 +95,7 @@ a:active { /* selected link */
 
 #header {
   background-color: #9AADA1;
-  padding: 0.625em;
+  padding: 10px 0 4px;
   text-align: center;
   display: inline-block;
   position: fixed;
@@ -142,21 +142,13 @@ a:active { /* selected link */
 }
 
 .logo {
-  max-width: 250px;
-}
-
-.nav {
-  display: inline-block;
-  width: 100%;
+  max-width: 150px;
 }
 
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav > ul > li > a {
@@ -230,7 +222,38 @@ max-width: 0.5em;
   text-decoration: underline;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 /*needs to be at the bottom as it's very specific */
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -315,11 +338,25 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
-
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
   }
 
   #hero {
@@ -428,6 +465,10 @@ Large devices (1024px or larger)
       font-size: 1.35em;
       font-weight: 400;
     }
+
+    .logo {
+      max-width: 250px;
+    }
 }
 
 /* ==============================
@@ -469,7 +510,10 @@ X-large devices (1440px or larger)
       font-size: 1.35em;
       font-weight: 400;
     }
-}
+    .logo {
+      max-width: 300px;
+    }
+
 [class*="col-"] {
   float: left;
   padding-left: 10px;
@@ -581,6 +625,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
 @keyframes belly-expand {
   transform: scale (1.25, 1.25)
 }
+
 .belly {
   animation: 3s belly-expand infinite alternate linear;
 }
