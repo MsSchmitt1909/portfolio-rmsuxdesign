@@ -187,6 +187,7 @@ a:active {
 
 nav ul > li > a:visited {
   color: #FAF7F2;
+  text-decoration: underline;
 }
 
 .mockupimg .wodhunttitleimg  {
