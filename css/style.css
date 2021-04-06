@@ -30,7 +30,7 @@ Color Theme Swatches in HSLA
 
 body {
   background-color: #fafafa;
-  font-family: 'Puritan', sans-serif;
+  font-family: 'roboto', sans-serif;
   font-size: 12px; /* Sets the font size to 12px */
   font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.2; /* Sets the line-height to 1.2 * the font-size */
@@ -46,6 +46,7 @@ body {
     color: #FAD7C5;
     text-align: center;
     margin: 10px;
+    font-family: 'antic';
   }
 
   h2 {
@@ -55,6 +56,10 @@ body {
     margin: 10px;
     text-align: left;
     padding-top: 20px;
+  }
+
+  h2, h3, h4 {
+   font-family: 'rokkitt'; 
   }
 
   h3 {
@@ -434,7 +439,7 @@ Medium devices (640px and larger)
   }
   body {
     background-color: #fafafa;
-    font-family: 'Puritan', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-size: 14px; /* Sets the font size to 14px */
     font-weight: 400; /* Sets the font weight to 400 */
     line-height: 1.4; /* Sets the line-height to 1.4 * the font-size */
@@ -486,7 +491,7 @@ Large devices (1024px or larger)
   }
   body {
     background-color: #fafafa;
-    font-family: 'Puritan', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-size: 16px; /* Sets the font size to 16px */
     font-weight: 400; /* Sets the font weight to 400 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
@@ -559,7 +564,7 @@ X-large devices (1440px or larger)
 @media only screen and (min-width: 1440px) {
   body {
     background-color: #fafafa;
-    font-family: 'Puritan', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-size: 20px; /* Sets the font size to 24px */
     font-weight: 400; /* Sets the font weight to 300 */
     line-height: 2.0; /* Sets the line-height to 2.0 * the font-size */
@@ -636,36 +641,6 @@ X-large devices (1440px or larger)
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
-
-/* Border X get width  
-div.borderXwidth a:before, div.borderXwidth a:after
-{
-    position: absolute;
-    opacity: 0;
-    width: 0%;
-    height: 2px;
-    content: '';
-    background: #B9DCFA;
-    transition: all 0.3s;
-}
-
-div.borderXwidth a:before
-{
-    left: 0px;
-    top: 0px;
-}
-
-div.borderXwidth a:after
-{
-    right: 0px;
-    bottom: 0px;
-}
-
-div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
-{
-    opacity: 1;
-    width: 100%;
-}*/
 
 /* CSS animation own attempt */
 
