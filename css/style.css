@@ -648,6 +648,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
 .birdhiright {
   animation: 6s birdhiright-move infinite alternate linear;
 }
+
 .birdhileft {
   animation: 3s birdhileft-move infinite alternate linear;
 }
