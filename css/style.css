@@ -89,6 +89,12 @@ p {
   font-weight: 300;
 }
 
+span, br {
+  font-size: 1.2em;
+}
+li {
+  font-weight: 300;
+}
 a:hover {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
@@ -389,6 +395,46 @@ max-width: 0.5em;
   max-width: 100%;
   height: auto;
 }
+
+@keyframes color-change-d {
+  0% {fill: #FAD7C5;}
+  100% {fill: #9AADA1;}
+ }
+
+ .pot1 {
+  animation-duration: 4s;
+  animation-name: color-change-d;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes color-change-e {
+  0% {fill: #3f3d56}
+  50% {fill: #9AADA1;}
+  100% {fill: #FAD7C5;}
+ }
+
+ .pot2 {
+  animation-duration: 3s;
+  animation-name: color-change-e;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes color-change-f {
+  0% {fill: #3f3d56;}
+  100% {fill: #FAD7C5;}
+ }
+
+ .laptop {
+  animation-duration: 4s;
+  animation-name: color-change-f;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -427,7 +473,7 @@ Medium devices (640px and larger)
   }
 
   .about {
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   #about_rms h3 { 
@@ -717,14 +763,4 @@ X-large devices (1440px or larger)
 .birdhileft {
   animation: 3s birdhileft-move infinite alternate linear;
 }
-
-
-@keyframes belly-expand {
-  transform: scale (1.25, 1.25)
-}
-
-.belly {
-  animation: 3s belly-expand infinite alternate linear;
-}
-
 
