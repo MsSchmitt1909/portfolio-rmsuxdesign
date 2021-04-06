@@ -31,49 +31,50 @@ Color Theme Swatches in HSLA
 body {
   background-color: #fafafa;
   font-family: 'Puritan', sans-serif;
-  font-size: 16px; /* Sets the font size to 16px */
+  font-size: 12px; /* Sets the font size to 12px */
   font-weight: 400; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  line-height: 1.2; /* Sets the line-height to 1.2 * the font-size */
   color: #3A4854;
   }
 
   h1, h2, h3, h4 {
-    line-height: 1.4;
+    line-height: 1.0;
   }
   h1 {
-    font-size: 2.75em;
+    font-size: 2.25em;
     font-weight: 700;
     color: #FAD7C5;
     text-align: center;
+    margin: 10px;
   }
 
   h2 {
-    font-size: 2.25em;
+    font-size: 2.0em;
     font-weight: 700;
     color: #7895AD;
-    text-align: center;
+    margin: 10px;
+    text-align: left;
+    padding-top: 20px;
   }
 
   h3 {
     font-size: 1.75em;
     font-weight: 400;
     color: #9AADA1;
+    margin: 10px;
   }
   h4 {
     font-size: 1.35em;
     font-weight: 400;
+    margin: 10px;
   }
-
-  #hero h1 {
-  text-align: center; /* Centers text */
-}
 
   img {
     width: 100%;
   }
 
   a {
-  color: #7895AD;
+  color: #FAF7F2;
   text-decoration: none; /* No underlining */
 }
 
@@ -82,21 +83,23 @@ p {
   display: inline-block;
 }
 
-a:visited { /* visited link */
-  color: #B9DCFA;
-}
-a:hover,
-a:focus {
+a:hover {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
-a:active { /* selected link */
+
+
+a:focus, 
+a:active,
+a:visited {
   color: #B9DCFA;
 }
+
 
 #header {
   background-color: #9AADA1;
   padding: 10px 0 4px;
   text-align: center;
+  color:  #FAF7F2;
   display: inline-block;
   position: fixed;
   width: 100%;
@@ -118,6 +121,7 @@ a:active { /* selected link */
 
 #getintouch {
   background-color: #FAD7C5;
+  text-align: center;
 }
 
 /* layout styling */
@@ -159,23 +163,23 @@ nav ul > li > a {
   position: relative;
 }
 
-nav ul > li > a:hover {
-  text-decoration: underline;
-}
-
-nav ul > li > a:active {
-  color: #FAD7C5;
-  text-decoration: underline;
+nav ul > li > a:hover,
+a:active {
+  text-decoration: none;
+  color: #FAF7F2;
 }
 
 nav ul > li > a:visited {
-  color: #B9DCFA;
+  color: #FAF7F2;
 }
 
-.mockupimg .wodhunttitleimg .vocabquestimg {
+.mockupimg .wodhunttitleimg  {
 max-width: 0.5em;
 }
 
+.vocabquestimg {
+  max-width: 0.2em;
+  }
 
 .copyright {
   background-color: #9AADA1;
@@ -207,15 +211,15 @@ max-width: 0.5em;
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #3A4854;
+  color: #7895AD;
 }
 
 .socials> ul > li > a:visited {
-  color: #667F94;
+  color: #7895AD;
 }
 
 .socials > ul > li > a:active {
-  color: #667F94;
+  color: #7895AD;
   text-decoration: underline;
 }
 
@@ -249,32 +253,48 @@ max-width: 0.5em;
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid rgba(250, 215, 197, 1);
 }
 
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
+
+#hero p {
+  color: #FAF7F2;
+}
+
+#hero p a {
+  color:rgba(250, 215, 197, 1);
+}
+
+#getintouch p a {
+  color: #7895AD;
+}
+
+
 /*needs to be at the bottom as it's very specific */
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #7895AD;
-  color: #FaF7F2; /* needed to override the default link color */
+  color: #FAF7F2; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #667F94; /* width of the border, type, color */
   transition-duration: 0.2s;
   transition-property: opacity;
+  margin: 10px;
 }
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: underline;
+  text-decoration: none;
 }
 .button:active {
-  background-color: #B9DCFA;
+  background-color:#FAF7F2;
   border-radius: 12px;
 }
+
 .button.contact {
   background-color: transparent;
   color: #7895AD;
@@ -285,6 +305,7 @@ max-width: 0.5em;
   border: 2px solid #7895AD;
   transition: 0.2s opacity;
 }
+
 .button.contact:hover {
   background-color: #7895AD;
   color: #FAF7F2;
@@ -294,25 +315,52 @@ max-width: 0.5em;
   opacity: 0.6;
   border-radius: 12px;
 }
+
 .button.cv {
-  background-color: #7895AD;
-  margin: auto 0;
-  padding-left: 40px;
-  padding-right: 40px;
-  color: #FAF7F2;
+  background-color: transparent;
+  color: #7895AD;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-transform: uppercase;
-  text-align: center;
-  border: 2px solid #667F94;
+  border: 2px solid #7895AD;
   transition: 0.2s opacity;
 }
+
 .button.cv:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: underline;
+  background-color: #7895AD;
+  color: #FAF7F2;
 }
 
 .button.cv:active {
   opacity: 0.6;
+  border-radius: 12px;
+}
+.button.cv:active {
+  opacity: 0.6;
   border-radius: 18px;
+}
+
+
+.button.readmore {
+  background-color: transparent;
+  color: #7895AD;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  border: 2px solid #7895AD;
+  transition: 0.2s opacity;
+}
+
+.button.readmore:hover {
+  background-color: #7895AD;
+  color: #FAF7F2;
+}
+
+.button.readmore:active {
+  opacity: 0.6;
+  border-radius: 12px;
 }
 
 .logo {
@@ -320,7 +368,7 @@ max-width: 0.5em;
 }
 
 .social-icon-svg {
-  stroke: #062b31;
+  stroke: #7895AD;
   fill: none;
   stroke-miterlimit: 10;
   stroke-width: 6.5px;
@@ -368,8 +416,14 @@ Medium devices (640px and larger)
     display: block;
   }
 
+  .about {
+    margin: 0 20px;
+  }
+
   #about_rms h3 { 
-    margin-top: 0;}
+    margin-top: 0;
+    text-align: left;
+  }
 
   .col-md-6 {
     width: 50%;
@@ -381,27 +435,26 @@ Medium devices (640px and larger)
   body {
     background-color: #fafafa;
     font-family: 'Puritan', sans-serif;
-    font-size: 18px; /* Sets the font size to 16px */
-    font-weight: 400; /* Sets the font weight to 300 */
-    line-height: 1.8; /* Sets the line-height to 1.6 * the font-size */
+    font-size: 14px; /* Sets the font size to 14px */
+    font-weight: 400; /* Sets the font weight to 400 */
+    line-height: 1.4; /* Sets the line-height to 1.4 * the font-size */
     color: #3A4854;
     }
   
     h1, h2, h3, h4 {
-      line-height: 1.6;
+      line-height: 1.2;
     }
     h1 {
-      font-size: 2.75em;
+      font-size: 2.25em;
       font-weight: 700;
       color: #FAD7C5;
       text-align: center;
     }
   
     h2 {
-      font-size: 2.25em;
+      font-size: 2.0em;
       font-weight: 700;
       color: #7895AD;
-      text-align: center;
     }
   
     h3 {
@@ -434,27 +487,26 @@ Large devices (1024px or larger)
   body {
     background-color: #fafafa;
     font-family: 'Puritan', sans-serif;
-    font-size: 22px; /* Sets the font size to 16px */
-    font-weight: 400; /* Sets the font weight to 300 */
-    line-height: 2.0; /* Sets the line-height to 1.6 * the font-size */
+    font-size: 16px; /* Sets the font size to 16px */
+    font-weight: 400; /* Sets the font weight to 400 */
+    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
     color: #3A4854;
     }
   
     h1, h2, h3, h4 {
-      line-height: 1.8;
+      line-height: 1.4;
     }
     h1 {
-      font-size: 2.75em;
+      font-size: 2.25em;
       font-weight: 700;
       color: #FAD7C5;
       text-align: center;
     }
   
     h2 {
-      font-size: 2.25em;
+      font-size: 2.0em;
       font-weight: 700;
       color: #7895AD;
-      text-align: center;
     }
   
     h3 {
@@ -472,6 +524,35 @@ Large devices (1024px or larger)
     }
 }
 
+/* Border X get width  */
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FAD7C5;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
@@ -479,27 +560,26 @@ X-large devices (1440px or larger)
   body {
     background-color: #fafafa;
     font-family: 'Puritan', sans-serif;
-    font-size: 24px; /* Sets the font size to 24px */
+    font-size: 20px; /* Sets the font size to 24px */
     font-weight: 400; /* Sets the font weight to 300 */
-    line-height: 2.2; /* Sets the line-height to 1.6 * the font-size */
+    line-height: 2.0; /* Sets the line-height to 2.0 * the font-size */
     color: #3A4854;
     }
   
     h1, h2, h3, h4 {
-      line-height: 2.0;
+      line-height: 1.6;
     }
     h1 {
-      font-size: 2.75em;
+      font-size: 2.25em;
       font-weight: 700;
       color: #FAD7C5;
       text-align: center;
     }
   
     h2 {
-      font-size: 2.25em;
+      font-size: 2.0em;
       font-weight: 700;
       color: #7895AD;
-      text-align: center;
     }
   
     h3 {
@@ -514,6 +594,11 @@ X-large devices (1440px or larger)
     .logo {
       max-width: 300px;
     }
+
+
+#getintouch h2, h3 {
+  text-align: center;
+}
 
 [class*="col-"] {
   float: left;
@@ -552,7 +637,7 @@ X-large devices (1440px or larger)
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
-/* Border X get width  */
+/* Border X get width  
 div.borderXwidth a:before, div.borderXwidth a:after
 {
     position: absolute;
@@ -580,7 +665,7 @@ div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
 {
     opacity: 1;
     width: 100%;
-}
+}*/
 
 /* CSS animation own attempt */
 
