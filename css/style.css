@@ -522,6 +522,13 @@ Medium devices (640px and larger)
     text-align: left;
   }
 
+  .about-hero-picture {
+    max-width: 100%;
+  }
+  .about-hero-section {
+    margin-top: 50px;
+  }
+
   .col-md-6 {
     width: 50%;
   }
