@@ -4,7 +4,7 @@ Primary Color ()
 Colors in Hex
 .green-hex { color: #9AADA1; }
 .peach-hex { color: #FAD7C5; }
-.blue-hex { color: #7895AD; } {darker state color: #667F94}
+.blue-hex { color: #7895AD; } {darker state color: #5D7487}
 .lightblue-hex { color: #B9DCFA; }
 .off-white-hex { color: #FAF7F2; }
 .off-black-hex { color: #3A4854; }
@@ -52,7 +52,7 @@ body {
   h2 {
     font-size: 2.0em;
     font-weight: 700;
-    color: #7895AD;
+    color: #5D7487;
     margin: 10px;
     text-align: left;
     padding-top: 20px;
@@ -155,7 +155,7 @@ a:visited {
 }
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #9AADA1; }
 
-#socialmedia {
+.socialmedia {
   max-width: 10%;
   min-width: 40px;
   display: inline-block;
@@ -228,15 +228,15 @@ max-width: 0.5em;
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #7895AD;
+  color: #5D7487;
 }
 
 .socials> ul > li > a:visited {
-  color: #7895AD;
+  color: #5D7487;
 }
 
 .socials > ul > li > a:active {
-  color: #7895AD;
+  color: #5D7487;
   text-decoration: underline;
 }
 
@@ -286,14 +286,14 @@ max-width: 0.5em;
 }
 
 #getintouch p a {
-  color: #7895AD;
+  color: #5D7487;
 }
 
 
 /*needs to be at the bottom as it's very specific */
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #7895AD;
+  background-color: #5D7487;
   color: #FAF7F2; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
@@ -314,17 +314,17 @@ max-width: 0.5em;
 
 .button.contact {
   background-color: transparent;
-  color: #7895AD;
+  color: #5D7487;
   margin-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
   text-transform: uppercase;
-  border: 2px solid #7895AD;
+  border: 2px solid #5D7487;
   transition: 0.2s opacity;
 }
 
 .button.contact:hover {
-  background-color: #7895AD;
+  background-color: #5D7487;
   color: #FAF7F2;
 }
 
@@ -335,17 +335,17 @@ max-width: 0.5em;
 
 .button.cv {
   background-color: transparent;
-  color: #7895AD;
+  color: #5D7487;
   margin-top: 10px;
   padding-left: 50px;
   padding-right: 50px;
   text-transform: uppercase;
-  border: 2px solid #7895AD;
+  border: 2px solid #5D7487;
   transition: 0.2s opacity;
 }
 
 .button.cv:hover {
-  background-color: #7895AD;
+  background-color: #5D7487;
   color: #FAF7F2;
 }
 
@@ -361,17 +361,17 @@ max-width: 0.5em;
 
 .button.readmore {
   background-color: transparent;
-  color: #7895AD;
+  color: #5D7487;
   margin-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
   text-transform: uppercase;
-  border: 2px solid #7895AD;
+  border: 2px solid #5D7487;
   transition: 0.2s opacity;
 }
 
 .button.readmore:hover {
-  background-color: #7895AD;
+  background-color: #5D7487;
   color: #FAF7F2;
 }
 
@@ -385,7 +385,7 @@ max-width: 0.5em;
 }
 
 .social-icon-svg {
-  stroke: #7895AD;
+  stroke: #5D7487;
   fill: none;
   stroke-miterlimit: 10;
   stroke-width: 6.5px;
@@ -522,13 +522,6 @@ Medium devices (640px and larger)
     text-align: left;
   }
 
-  .about-hero-picture {
-    max-width: 100%;
-  }
-  .about-hero-section {
-    margin-top: 50px;
-  }
-
   .col-md-6 {
     width: 50%;
   }
@@ -558,7 +551,7 @@ Medium devices (640px and larger)
     h2 {
       font-size: 2.0em;
       font-weight: 700;
-      color: #7895AD;
+      color: #5D7487;
     }
   
     h3 {
@@ -610,7 +603,7 @@ Large devices (1024px or larger)
     h2 {
       font-size: 2.0em;
       font-weight: 700;
-      color: #7895AD;
+      color: #5D7487;
     }
   
     h3 {
@@ -683,7 +676,7 @@ X-large devices (1440px or larger)
     h2 {
       font-size: 2.0em;
       font-weight: 700;
-      color: #7895AD;
+      color: #5D7487;
     }
   
     h3 {
@@ -745,7 +738,7 @@ X-large devices (1440px or larger)
 
 @keyframes color-change-b {
   0% {fill: #cbcbcb;}
-   50% {fill: #7895AD;}
+   50% {fill: #5D7487;}
    100% {fill: #667F94;}
  }
 
@@ -760,7 +753,7 @@ X-large devices (1440px or larger)
 
 @keyframes color-change-c {
   0% {fill: #667F94;}
-  50% {fill: #7895AD;}
+  50% {fill: #5D7487;}
   100% {fill: #cbcbcb;}
  }
 
