@@ -2,7 +2,7 @@
 Colors used:
 Primary Color ()
 Colors in Hex
-.green-hex { color: #9AADA1; }
+.green-hex { color: #9AADA1; } {darker text color: #617769}
 .peach-hex { color: #FAD7C5; }
 .blue-hex { color: #7895AD; } {darker state color: #5D7487}
 .lightblue-hex { color: #B9DCFA; }
@@ -65,9 +65,10 @@ body {
   h3 {
     font-size: 1.75em;
     font-weight: 400;
-    color: #9AADA1;
+    color: #617769;
     margin: 10px;
   }
+
   h4 {
     font-size: 1.35em;
     font-weight: 400;
@@ -89,9 +90,6 @@ p {
   font-weight: 300;
 }
 
-span, br {
-  font-size: 1.2em;
-}
 li {
   font-weight: 300;
 }
@@ -391,6 +389,10 @@ max-width: 0.5em;
   stroke-width: 6.5px;
 }
 
+.about-title h1 {
+  color: #5D7487;
+}
+
 .berlin-illustration {
   width: 100%;
   max-width: 100%;
@@ -557,7 +559,7 @@ Medium devices (640px and larger)
     h3 {
       font-size: 1.75em;
       font-weight: 400;
-      color: #9AADA1;
+      color: #617769;
     }
     h4 {
       font-size: 1.35em;
@@ -609,7 +611,7 @@ Large devices (1024px or larger)
     h3 {
       font-size: 1.75em;
       font-weight: 400;
-      color: #9AADA1;
+      color: #617769;
     }
     h4 {
       font-size: 1.35em;
@@ -682,7 +684,7 @@ X-large devices (1440px or larger)
     h3 {
       font-size: 1.75em;
       font-weight: 400;
-      color: #9AADA1;
+      color: #617769;
     }
     h4 {
       font-size: 1.35em;
