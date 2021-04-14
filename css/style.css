@@ -6,23 +6,9 @@ Colors in Hex
 .peach-hex { color: #FAD7C5; }
 .blue-hex { color: #5D7487}
 .lightblue-hex { color: #B9DCFA; }
-.off-white-hex { color: #FAF7F2; }
+.off-white-hex { color: #FAF7F2; } {lighter shade: #FFFCFA; }
 .off-black-hex { color: #3A4854; }
-
-Color Theme Swatches in RGBA
-.green-rgba { color: rgba(154, 173, 161, 1); }
-.peach-rgba { color: rgba(250, 215, 197, 1); }
-.blue-rgba { color: rgba(120, 149, 173, 1); }
-.lightblue-rgba { color: rgba(185, 220, 250, 98); }
-.off-white-rgba { color: rgba(250, 247, 242, 1); }
-.off-black-rgba { color: rgba(58, 72, 84, 1); }
-
-Color Theme Swatches in HSLA
-.green-hsla { color: hsla(142, 10, 64, 1); }
-.peach-hsla { color: hsla(20, 84, 87, 1); }
-.blue-hsla { color: hsla(207, 24, 57, 1); }
-.off-white-hsla { color: hsla(37, 44, 96, 1); }
-.off-black-hsla { color: hsla(207, 18, 27, 1); } */
+ */
 
 * {
   box-sizing: border-box;
@@ -83,7 +69,7 @@ body {
   }
 
   a {
-  color: #FAF7F2;
+  color: #FFFCFA;
   text-decoration: none; /* No underlining */
 }
 
@@ -112,7 +98,7 @@ a:visited {
   /* background-color: #9AADA1; */
   padding: 10px 0 4px;
   text-align: center;
-  color:  #FAF7F2;
+  color:  #FFFCFA;
   display: inline-block;
   position: fixed;
   width: 100%;
@@ -149,7 +135,7 @@ a:visited {
 
 
 #main {
-  background-color:  #FAF7F2;
+  background-color:  #FFFCFA;
   padding-top: 102px;
 }
 
@@ -193,18 +179,18 @@ nav ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #FAF7F2;
+  color: #FFFCFA;
   position: relative;
 }
 
 nav ul > li > a:hover,
 a:active {
   text-decoration: none;
-  color: #FAF7F2;
+  color: #FFFCFA;
 }
 
 nav ul > li > a:visited {
-  color: #FAF7F2;
+  color: #FFFCFA;
   text-decoration: underline;
 }
 
@@ -219,7 +205,7 @@ max-width: 0.5em;
 .copyright {
   background-color: #617769;
   padding: 0 15px;
-  color: #3A4854;
+  color: #FFFCFA;
   font-size: 0.8em;
   font-weight: 300;
 }
@@ -296,7 +282,7 @@ max-width: 0.5em;
 }
 
 #hero p {
-  color: #FAF7F2;
+  color: #FFFCFA;
 }
 
 #hero p a {
@@ -312,7 +298,7 @@ max-width: 0.5em;
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #5D7487;
-  color: #FAF7F2; /* needed to override the default link color */
+  color: #FFFCFA; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
@@ -326,7 +312,7 @@ max-width: 0.5em;
   text-decoration: none;
 }
 .button:active {
-  background-color:#FAF7F2;
+  background-color:#FFFCFA;
   border-radius: 12px;
 }
 
@@ -343,7 +329,7 @@ max-width: 0.5em;
 
 .button.contact:hover {
   background-color: #5D7487;
-  color: #FAF7F2;
+  color: #FFFCFA;
 }
 
 .button.contact:active {
@@ -364,7 +350,7 @@ max-width: 0.5em;
 
 .button.cv:hover {
   background-color: #5D7487;
-  color: #FAF7F2;
+  color: #FFFCFA;
 }
 
 .button.cv:active {
@@ -390,7 +376,7 @@ max-width: 0.5em;
 
 .button.readmore:hover {
   background-color: #5D7487;
-  color: #FAF7F2;
+  color: #FFFCFA;
 }
 
 .button.readmore:active {
