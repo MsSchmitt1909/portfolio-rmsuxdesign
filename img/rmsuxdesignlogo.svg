@@ -7,11 +7,11 @@
         </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="rmsuxdesignlogo">
-            <polygon id="Polygon" stroke="#FFFFFF" stroke-width="0.5" fill-opacity="0.6" fill="#9AADA1" fill-rule="nonzero" transform="translate(45.500000, 47.500000) rotate(20.000000) translate(-45.500000, -47.500000) " points="45.5 10.2850913 79.4580034 28.8980619 79.4580034 66.1019381 45.5 84.7149087 11.5419966 66.1019381 11.5419966 28.8980619"></polygon>
-            <polygon id="Polygon" stroke="#FFFFFF" stroke-width="0.5" fill-opacity="0.8" fill="#9AADA1" fill-rule="nonzero" transform="translate(45.500000, 47.500000) rotate(10.000000) translate(-45.500000, -47.500000) " points="45.5 10.2850913 79.4580034 28.8980619 79.4580034 66.1019381 45.5 84.7149087 11.5419966 66.1019381 11.5419966 28.8980619"></polygon>
-            <polygon id="Polygon" stroke="#FFFFFF" stroke-width="0.75" fill="#9AADA1" fill-rule="nonzero" points="45.5 10.4276369 79.3330034 28.9720929 79.3330034 66.0279071 45.5 84.5723631 11.6669966 66.0279071 11.6669966 28.9720929"></polygon>
-            <g id="Group" transform="translate(24.000000, 25.000000)">
+        <g id="rmsuxdesignlogo" transform="translate(0.861666, 0.915104)">
+            <polygon id="Polygon" stroke="#FFFFFF" stroke-width="0.5" fill-opacity="0.6" fill="#617769" fill-rule="nonzero" transform="translate(44.638334, 46.584896) rotate(20.000000) translate(-44.638334, -46.584896) " points="44.6383336 9.36998758 78.596337 27.9829582 78.596337 65.1868344 44.6383336 83.799805 10.6803302 65.1868344 10.6803302 27.9829582"></polygon>
+            <polygon id="Polygon" stroke="#FFFFFF" stroke-width="0.5" fill-opacity="0.8" fill="#617769" fill-rule="nonzero" transform="translate(44.638334, 46.584896) rotate(10.000000) translate(-44.638334, -46.584896) " points="44.6383336 9.36998758 78.596337 27.9829582 78.596337 65.1868344 44.6383336 83.799805 10.6803302 65.1868344 10.6803302 27.9829582"></polygon>
+            <polygon id="Polygon" stroke="#FFFFFF" stroke-width="0.75" fill="#617769" fill-rule="nonzero" points="44.6383336 9.51253318 78.471337 28.0569892 78.471337 65.1128034 44.6383336 83.6572594 10.8053302 65.1128034 10.8053302 28.0569892"></polygon>
+            <g id="Group" transform="translate(23.138334, 24.084896)">
                 <g filter="url(#filter-1)" font-family="Raleway-Thin, Raleway" font-weight="300" id="RMS">
                     <g transform="translate(3.000000, 0.000000)">
                         <text id="R" fill="#FAF7F2" fill-rule="nonzero" font-size="16">
