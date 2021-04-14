@@ -3,7 +3,7 @@ Colors used:
 Primary Color ()
 Colors in Hex
 .green-hex { color: #617769; }
-.peach-hex { color: #FAD7C5; }
+.peach-hex { color: #FAD7C5; } {brighter: #FFCCB3; }
 .blue-hex { color: #5D7487}
 .lightblue-hex { color: #B9DCFA; }
 .off-white-hex { color: #FAF7F2; } {lighter shade: #FFFCFA; }
@@ -15,7 +15,7 @@ Colors in Hex
 }
 
 body {
-  /* background-color: #fafafa; */
+  /* background-color: #FFFCFA; */
   background: url(https://images.unsplash.com/photo-1538927116541-129b3c3b3a2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3034&q=80) no-repeat; 
   background-attachment: fixed; 
 	background-size: cover;
@@ -32,7 +32,7 @@ body {
   h1 {
     font-size: 2.25em;
     font-weight: 700;
-    color: #FAD7C5;
+    color: #FFCCB3;
     text-align: center;
     margin: 10px;
     font-family: 'antic';
@@ -43,7 +43,7 @@ body {
     font-weight: 700;
     color: #5D7487;
     margin: 10px;
-    text-align: left;
+    text-align: center;
     padding-top: 20px;
   }
 
@@ -117,7 +117,7 @@ a:visited {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+	box-shadow: inset 0 0 2000px rgba(127, 155, 181, .5);
 	filter: blur(10px);
 	margin: -20px;
 }
@@ -129,36 +129,59 @@ a:visited {
 #hero {
   background-color: #617769;
   padding: 20px 0;
+  padding-top: 105px;
   display: inline-block;
   width: 100%;
+  box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.33);
 }
 
 
 #main {
-  background-color:  #FFFCFA;
-  padding-top: 102px;
+  /*background-color:  #FFFCFA;*/
+  padding-top: 150px;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
 
 #getintouch {
-  background-color: #FAD7C5;
+  background-color: #FFCCB3;
   text-align: center;
+  box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.33);
+}
+
+#work {
+  box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.33);
 }
 
 /* layout styling */
 .container {
-  padding: 0 15px;
+  padding: 15px 0px;
+}
+
+.work-container {
+  background-color:  #FFFCFA;
 }
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #617769; }
 
+#work .row { 
+  padding-bottom: 25px; border-bottom: 1px solid #617769; 
+}
+
+#work .last {
+  padding-bottom: 0px;
+  margin-bottom: 0%;
+  border-bottom: none;
+}
 .socialmedia {
   max-width: 10%;
   min-width: 40px;
@@ -166,7 +189,7 @@ a:visited {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 80px;
 }
 
 nav ul {
@@ -385,7 +408,7 @@ max-width: 0.5em;
 }
 
 .logo {
-  max-height: 100px;
+  max-height: 80px;
 }
 
 .social-icon-svg {
@@ -406,7 +429,7 @@ max-width: 0.5em;
 }
 
 @keyframes color-change-d {
-  0% {fill: #FAD7C5;}
+  0% {fill: #FFCCB3;}
   100% {fill: #617769;}
  }
 
@@ -421,7 +444,7 @@ max-width: 0.5em;
 @keyframes color-change-e {
   0% {fill: #3f3d56}
   50% {fill: #617769;}
-  100% {fill: #FAD7C5;}
+  100% {fill: #FFCCB3;}
  }
 
  .pot2 {
@@ -434,7 +457,7 @@ max-width: 0.5em;
 
 @keyframes color-change-f {
   0% {fill: #3f3d56;}
-  100% {fill: #FAD7C5;}
+  100% {fill: #FFCCB3;}
  }
 
  .laptop {
@@ -538,7 +561,7 @@ Medium devices (640px and larger)
     width: 33%;
   }
   body {
-    background-color: #fafafa;
+    background-color: #FFFCFA;
     font-family: 'roboto', sans-serif;
     font-size: 14px; /* Sets the font size to 14px */
     font-weight: 400; /* Sets the font weight to 400 */
@@ -552,7 +575,7 @@ Medium devices (640px and larger)
     h1 {
       font-size: 2.25em;
       font-weight: 700;
-      color: #FAD7C5;
+      color: #FFCCB3;
       text-align: center;
     }
   
@@ -589,8 +612,9 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
+
   body {
-    background-color: #fafafa;
+    background-color: #FFFCFA;
     font-family: 'roboto', sans-serif;
     font-size: 16px; /* Sets the font size to 16px */
     font-weight: 400; /* Sets the font weight to 400 */
@@ -604,7 +628,7 @@ Large devices (1024px or larger)
     h1 {
       font-size: 2.25em;
       font-weight: 700;
-      color: #FAD7C5;
+      color: #FFCCB3;
       text-align: center;
     }
   
@@ -625,7 +649,8 @@ Large devices (1024px or larger)
     }
 
     .logo {
-      max-width: 250px;
+      max-width: 100px;
+      max-height: 100px;
     }
 }
 
@@ -637,7 +662,7 @@ div.borderXwidth a:before, div.borderXwidth a:after
     width: 0%;
     height: 2px;
     content: '';
-    background: #FAD7C5;
+    background: #FFCCB3;
     transition: all 0.3s;
 }
 
@@ -663,7 +688,7 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
   body {
-    background-color: #fafafa;
+    background-color: #FFFCFA;
     font-family: 'roboto', sans-serif;
     font-size: 20px; /* Sets the font size to 24px */
     font-weight: 400; /* Sets the font weight to 300 */
@@ -677,7 +702,7 @@ X-large devices (1440px or larger)
     h1 {
       font-size: 2.25em;
       font-weight: 700;
-      color: #FAD7C5;
+      color: #FFCCB3;
       text-align: center;
     }
   
@@ -697,7 +722,8 @@ X-large devices (1440px or larger)
       font-weight: 400;
     }
     .logo {
-      max-width: 300px;
+      max-width: 120px;
+      max-height: 120px;
     }
 
 
