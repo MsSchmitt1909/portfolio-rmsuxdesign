@@ -163,6 +163,20 @@ a:visited {
   box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.33);
 }
 
+.container-about {
+  background-color:  #FFFCFA;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.33); 
+}
+
+.about-hero-section {
+  padding-top: 120px;
+}
+
+.about-hero-picture {
+  width: 100%;
+}
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
