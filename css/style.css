@@ -945,6 +945,7 @@ Separate Styles for WODHUNT
     margin: 10px;
     text-align: center;
     padding-top: 20px;
+    display: inline-flex;
   }
 
   h2, h3, h4 {
@@ -954,23 +955,27 @@ Separate Styles for WODHUNT
   h3 {
     font-size: 1.75em;
     font-weight: 400;
-    color: #303135;
+    color: #F27F1C;
     margin: 10px;
+    text-align: center;
   }
 
   h4 {
     font-size: 1.35em;
     font-weight: 400;
     margin: 10px;
+    color: #303135;
   }
-#wodhunt h2 {
-  display: inline-flex;
-}
-
-#wodhunt h3 {
-  text-align: center;
-}
-
-#wodhunt a {
+  
+  a {
   color: #F27F1C;
+
+  .process, .story, {
+    width: 100%;
+    max-width: 80%;
+  }
+
+  .roles {
+    max-width: 60%;
+  }
 }
