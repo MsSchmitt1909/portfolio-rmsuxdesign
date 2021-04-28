@@ -248,6 +248,7 @@ nav ul > li > a:visited {
 max-width: 0.5em;
 }
 
+
 .copyright {
   background-color: #617769;
   padding: 0 15px;
@@ -349,9 +350,11 @@ max-width: 0.5em;
 
 #wodhunt h2 {
   display: inline-flex;
-
 }
 
+#wodhunt h3 {
+  text-align: center;
+}
 /*needs to be at the bottom as it's very specific */
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -440,6 +443,13 @@ max-width: 0.5em;
 .button.readmore:active {
   opacity: 0.6;
   border-radius: 12px;
+}
+
+.wodhunttitle {
+  max-width: 100%;
+  max-height: 680px;
+  padding-top: 90px;
+  margin-bottom: 20px;
 }
 
 .logo {
