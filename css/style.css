@@ -69,7 +69,7 @@ body {
   }
 
   a {
-  color: #FFFCFA;
+  color: #FFCCB3;
   text-decoration: none; /* No underlining */
 }
 
@@ -94,7 +94,7 @@ a:visited {
 }
 
 
-#header {
+header {
   /* background-color: #9AADA1; */
   padding: 10px 0 4px;
   text-align: center;
@@ -108,7 +108,7 @@ a:visited {
 	overflow: hidden;
 }
 
-#header:before {
+header:before {
 	content: "";
 	position: absolute;
 	background: inherit;
@@ -122,7 +122,7 @@ a:visited {
 	margin: -20px;
 }
 
-#header a {
+header a {
   font-weight: 300;
 }
 
@@ -137,7 +137,7 @@ a:visited {
 }
 
 
-#main {
+main {
   padding-top: 150px;
   padding: 20px 0;
   display: inline-block;
@@ -167,6 +167,15 @@ a:visited {
   background-color:  #FFFCFA;
   border-radius: 10px;
   box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.33); 
+}
+
+.container-wodhunt {
+  background-color:  #FFFCFA;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.33); 
+  padding: 15px 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .about-hero-section {
@@ -326,6 +335,16 @@ max-width: 0.5em;
   color: #5D7487;
 }
 
+.minimockup {
+  max-width: 150px;
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+#wodhunt h2 {
+  display: inline-flex;
+
+}
 
 /*needs to be at the bottom as it's very specific */
 .button {
@@ -563,6 +582,10 @@ Medium devices (640px and larger)
     text-align: left;
   }
 
+  #wodhunt {
+    margin: 0 10px;
+  }
+
   .col-md-6 {
     width: 50%;
   }
@@ -662,6 +685,12 @@ Large devices (1024px or larger)
       max-width: 100px;
       max-height: 100px;
     }
+
+    .minimockup {
+      max-width: 200px;
+      display: inline-flex;
+      margin-left: 10px;
+    }
 }
 
 /* Border X get width  */
@@ -736,8 +765,17 @@ X-large devices (1440px or larger)
       max-height: 120px;
     }
 
+  .minimockup {
+    max-width: 220px;
+    display: inline-flex;
+    margin-left: 10px;
+  }
 
 #getintouch h2, h3 {
+  text-align: center;
+}
+
+#wodhunt h3 {
   text-align: center;
 }
 
