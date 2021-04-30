@@ -978,4 +978,8 @@ Separate Styles for WODHUNT
   .roles {
     max-width: 60%;
   }
+
+  .col-lg-6 {
+    width: 50%;
+  }
 }
