@@ -339,6 +339,7 @@ nav ul > li > a:visited {
 
 .wodhunttitle {
   max-width: 100%;
+  position:relative
 
 }
 
@@ -658,6 +659,11 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 41.67%;
   }
+
+  .col-lg-4 {
+    width: 33%;
+  }
+  
   .container {
     max-width: 1200px;
     margin-left: auto;
