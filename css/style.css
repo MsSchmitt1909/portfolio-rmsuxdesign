@@ -717,7 +717,7 @@ Large devices (1024px or larger)
       margin-left: 10px;
     }
 
-    .research {
+    .responsive {
       max-width: 60%;
       display: flex;
       justify-content: center;
