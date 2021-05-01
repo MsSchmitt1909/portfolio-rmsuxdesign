@@ -722,6 +722,12 @@ Large devices (1024px or larger)
       display: flex;
       justify-content: center;
     }
+
+    .responsive-2 {
+      max-width: 40%;
+      display: block;
+      justify-content: center;
+    }
 }
 
 /* Border X get width  */
