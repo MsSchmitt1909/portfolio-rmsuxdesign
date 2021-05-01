@@ -923,8 +923,8 @@ X-large devices (1440px or larger)
 /* ==============================
 Separate Styles for WODHUNT
 ================================= */
-#wodhunt body {
-  background-color: #052614;
+ body#wodhunt {
+  background: #052614;
   font-family: 'helvetica new', sans-serif;
   font-size: 12px; /* Sets the font size to 12px */
   font-weight: 400; /* Sets the font weight to 300 */
