@@ -716,6 +716,12 @@ Large devices (1024px or larger)
       display: inline-flex;
       margin-left: 10px;
     }
+
+    .research {
+      max-width: 60%;
+      display: flex;
+      justify-content: center;
+    }
 }
 
 /* Border X get width  */
@@ -972,17 +978,4 @@ Separate Styles for WODHUNT
   
   a {
   color: #F27F1C;
-
-  .process, .story, {
-    width: 100%;
-    max-width: 80%;
-  }
-
-  .roles {
-    max-width: 60%;
-  }
-
-  .col-lg-6 {
-    width: 50%;
-  }
 }
