@@ -963,7 +963,7 @@ Separate Styles for WODHUNT
   color: #3A4854;
   }
 
-  h1 {
+  #wodhunt h1 {
     font-size: 2.25em;
     font-weight: 700;
     color: #F27F1C;
@@ -972,7 +972,7 @@ Separate Styles for WODHUNT
     font-family: 'helvetica';
   }
 
-  h2 {
+  #wodhunt h2 {
     font-size: 2.0em;
     font-weight: 700;
     color: #052614;
@@ -982,11 +982,11 @@ Separate Styles for WODHUNT
     display: inline-flex;
   }
 
-  h2, h3, h4 {
+  #wodhunt h2, #wodhunt h3, #wodhunt h4 {
    font-family: 'helvetica';
   }
 
-  h3 {
+  #wodhunt h3 {
     font-size: 1.75em;
     font-weight: 400;
     color: #F27F1C;
@@ -994,13 +994,13 @@ Separate Styles for WODHUNT
     text-align: center;
   }
 
-  h4 {
+  #wodhunt h4 {
     font-size: 1.35em;
     font-weight: 400;
     margin: 10px;
     color: #303135;
   }
   
-  a {
+  #wodhunt a {
   color: #F27F1C;
 }
