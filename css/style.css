@@ -1032,4 +1032,8 @@ Separate Styles for WODHUNT
   
   #wodhunt a {
   color: #F27F1C;
+
+  #carouselSignUp {
+    max-height: 500px; 
+  }
 }

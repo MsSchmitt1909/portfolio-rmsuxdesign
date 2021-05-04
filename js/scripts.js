@@ -89,7 +89,7 @@ function menuToggle() {
        })
 
        //fifthCarousel
-       var myCarouselFifth = document.querySelector('#carouselExampleIndicators-5')
+       var myCarouselFifth = document.querySelector('#carouselSignUp')
        var carouselFifth = new bootstrap.Carousel(myCarouselFifth,  {
          interval: 3000
        })
@@ -104,7 +104,7 @@ function menuToggle() {
        })
 
        //sixthCarousel
-       var myCarouselSixth = document.querySelector('#carouselExampleIndicators-6')
+       var myCarouselSixth = document.querySelector('#carouselNav')
        var carouselSixth = new bootstrap.Carousel(myCarouselSixth,  {
          interval: 3000
        })
