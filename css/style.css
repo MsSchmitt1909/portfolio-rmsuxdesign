@@ -733,7 +733,7 @@ Large devices (1024px or larger)
       margin-left: 10px;
     }
 
-    .responsive {
+    /*.responsive {
       max-width: 60%;
       display: flex;
       justify-content: center;
@@ -743,7 +743,7 @@ Large devices (1024px or larger)
       max-width: 40%;
       display: block;
       justify-content: center;
-    }
+    }*/
 
     .vocabquestimg {
       max-width: 50%;
