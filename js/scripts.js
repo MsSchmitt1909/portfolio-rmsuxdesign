@@ -57,4 +57,64 @@ function menuToggle() {
       $('.carousel-control-next').click((event) => {
         carouselSecond.next();
       })
+
+       //thirdCarousel
+       var myCarouselThird = document.querySelector('#carouselExampleIndicators-3')
+       var carouselThird = new bootstrap.Carousel(myCarouselThird,  {
+         interval: 3000
+       })
+       // prev
+       $('.carousel-control-prev').click((event) => {
+         carouselThird.prev();
+       })
+       
+         // next
+       $('.carousel-control-next').click((event) => {
+         carouselThird.next();
+       })
+
+       //fourthCarousel
+       var myCarouselFourth = document.querySelector('#carouselExampleIndicators-4')
+       var carouselFourth = new bootstrap.Carousel(myCarouselFourth,  {
+         interval: 3000
+       })
+       // prev
+       $('.carousel-control-prev').click((event) => {
+         carouselFourth.prev();
+       })
+       
+         // next
+       $('.carousel-control-next').click((event) => {
+         carouselFourth.next();
+       })
+
+       //fifthCarousel
+       var myCarouselFifth = document.querySelector('#carouselExampleIndicators-5')
+       var carouselFifth = new bootstrap.Carousel(myCarouselFifth,  {
+         interval: 3000
+       })
+       // prev
+       $('.carousel-control-prev').click((event) => {
+         carouselFifth.prev();
+       })
+       
+         // next
+       $('.carousel-control-next').click((event) => {
+         carouselFifth.next();
+       })
+
+       //sixthCarousel
+       var myCarouselSixth = document.querySelector('#carouselExampleIndicators-6')
+       var carouselSixth = new bootstrap.Carousel(myCarouselSixth,  {
+         interval: 3000
+       })
+       // prev
+       $('.carousel-control-prev').click((event) => {
+         carouselSixth.prev();
+       })
+       
+         // next
+       $('.carousel-control-next').click((event) => {
+         carouselSixth.next();
+       })
   });
