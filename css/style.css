@@ -666,6 +666,11 @@ Medium devices (640px and larger)
       width:430px;
       height:560px;
     }
+
+    .research {
+      max-width: 400px;
+      vertical-align: middle;
+    }
 }
 
 /* ==============================
@@ -729,6 +734,11 @@ Large devices (1024px or larger)
       font-size: 1.35em;
     }
 
+    ol {
+      font-size: 1.35em;
+      color: #052614;
+    }
+
     .logo {
       max-width: 80px;
       max-height: 80px;
@@ -747,6 +757,10 @@ Large devices (1024px or larger)
 
     .vocabquestimg {
       max-width: 50%;
+    }
+
+    .research {
+      max-width: 600px;
     }
 }
 
@@ -1003,6 +1017,12 @@ Separate Styles for WODHUNT
     font-weight: 400;
     margin: 10px;
     color: #303135;
+  }
+
+  #wodhunt li {
+    font-size: 1.35em;
+    font-weight: 400;
+    color: #F27F1C;
   }
   
   #wodhunt a {
