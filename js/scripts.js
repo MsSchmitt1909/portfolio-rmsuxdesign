@@ -74,7 +74,7 @@ function menuToggle() {
        })
 
        //fourthCarousel
-       var myCarouselFourth = document.querySelector('#carouselExampleIndicators-4')
+       var myCarouselFourth = document.querySelector('#carouselUserFlows')
        var carouselFourth = new bootstrap.Carousel(myCarouselFourth,  {
          interval: 3000
        })
