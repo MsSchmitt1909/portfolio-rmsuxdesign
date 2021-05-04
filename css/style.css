@@ -66,6 +66,7 @@ body {
 
   img {
     width: 100%;
+    padding: 10px;
   }
 
   a {
@@ -740,17 +741,9 @@ Large devices (1024px or larger)
       margin-left: 10px;
     }
 
-    /*.responsive {
-      max-width: 60%;
-      display: flex;
-      justify-content: center;
+    .process {
+      max-width: 800px;
     }
-
-    .responsive-2 {
-      max-width: 40%;
-      display: block;
-      justify-content: center;
-    }*/
 
     .vocabquestimg {
       max-width: 50%;
