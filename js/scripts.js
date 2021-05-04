@@ -29,7 +29,7 @@ function menuToggle() {
     //   })
 
       //firstCarousel
-      var myCarouselFirst = document.querySelector('#carouselExampleIndicators-1')
+      var myCarouselFirst = document.querySelector('#carouselResearchInsights')
       var carouselFirst = new bootstrap.Carousel(myCarouselFirst,  {
         interval: 3000
       })
@@ -44,7 +44,7 @@ function menuToggle() {
       })
 
       //secondCarousel
-      var myCarouselSecond = document.querySelector('#carouselExampleIndicators-2')
+      var myCarouselSecond = document.querySelector('#carouselUserPersonas')
       var carouselSecond = new bootstrap.Carousel(myCarouselSecond,  {
         interval: 3000
       })
@@ -59,7 +59,7 @@ function menuToggle() {
       })
 
        //thirdCarousel
-       var myCarouselThird = document.querySelector('#carouselExampleIndicators-3')
+       var myCarouselThird = document.querySelector('#carouselUserJourneys')
        var carouselThird = new bootstrap.Carousel(myCarouselThird,  {
          interval: 3000
        })

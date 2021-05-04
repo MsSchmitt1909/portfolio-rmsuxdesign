@@ -229,6 +229,11 @@ main {
   max-width: 80px;
 }
 
+.slide {
+  max-width:70%;
+  display: flex;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -1020,7 +1025,7 @@ Separate Styles for WODHUNT
   }
 
   #wodhunt li {
-    font-size: 1.35em;
+    font-size: 1em;
     font-weight: 400;
     color: #F27F1C;
   }
