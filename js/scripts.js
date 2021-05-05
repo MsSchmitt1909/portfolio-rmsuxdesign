@@ -7,6 +7,7 @@ function menuToggle() {
     }
   }
 
+document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})
 
   // Carousel implementation
   $(document).ready(() => {
