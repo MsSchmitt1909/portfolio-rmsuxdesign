@@ -24,30 +24,28 @@
 
   <body> <!-- Header content starts here -->
     <header id="header">
-      <div class="container">
-        <div class="navtoggle" id="myNavtoggle">
-           <a href="index.html">
-            <img src="img/rmsuxdesignlogo.svg" alt="logo" class="logo">
-          </a>
-          <nav>
-            <div class="container borderXwidth">
-              <ul>
-                <li><a href="about_rms.html">About</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="essay.html">Essay</a></li>
-                <li><a href="#getintouch">Contact</a></li>
-                <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html">
+          <img src="img/rmsuxdesignlogo.svg" alt="logo" class="logo">
+        </a>
+        <nav>
+          <div class="container borderXwidth">
+            <ul>
+              <li><a href="about_rms.html">About</a></li>
+              <li><a href="work.html">Work</a></li>
+              <li><a href="essay.html">Essay</a></li>
+              <li><a href="#getintouch">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
   <!-- Header content ends -->
   <!-- For the main section -->
   <main id="main">
-    <div>
-      <div class="container row about-hero-section container-about about-title"><!-- row for columns -->
+    <div class="container">
+      <div id="hero" class="row"><!-- row for columns -->
         <div class="col-md-6 col-lg-5">
           <picture>
             <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_600/v1620210943/WOD%20Hunt/compressed_img/maija_cmp.jpg">
