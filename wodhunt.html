@@ -23,7 +23,7 @@
     <title> RMS UX Design </title>
   </head>
   
-<body id="wodhunt">
+<body>
   <!-- Header content starts here -->
   <header>
     <div>
@@ -36,6 +36,7 @@
             <ul>
               <li><a href="about_rms.html">About</a></li>
               <li><a href="index.html">Work</a></li>
+              <li><a href="essay.html">Essay</a></li>
               <li><a href="#getintouch">Contact</a></li>
               <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
             </ul>
@@ -46,7 +47,7 @@
   </header>
   <!-- Header content ends -->
   <!-- Main content starts here -->
-  <main>
+  <main id="wodhunt">
     <!-- For the hero section -->
     <div class="container container-wodhunt">
       <picture>
@@ -73,7 +74,7 @@
         <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129101/WOD%20Hunt/compressed_img/story_intro_2x_png.png">
         <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129101/WOD%20Hunt/compressed_img/story_intro_2x_png.png" alt="Story">
       </picture>
-      <div class="container-wodhunt need">
+      <div class="container-wodhunt">
         <h3> What he needs is WOD Hunt. </h3>
       </div>
 <!-- Story section ends -->
@@ -520,10 +521,6 @@
                     </div>
                   </div>
                 </div>
-                
-                
-                
-                
               </div>
           </div><!-- Ideate section ends -->
           <!-- Prototype section starts -->
@@ -552,6 +549,7 @@
                       <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620203611/WOD%20Hunt/compressed_img/midfid_concept_2x.jpg" alt="Desktop Wireframe Concept Mid-Fidelity">
                     </picture>
                     </div>
+                  <div class="col-md-6">
                     <picture>
                       <source media="(max-width:430px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129076/WOD%20Hunt/compressed_img/desktop_mockup_concept.jpg">
                       <source media="(min-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1000/v1620129078/WOD%20Hunt/compressed_img/desktop_mockup_concept_2x.jpg">
@@ -561,18 +559,25 @@
                   </div>
                 </div>
                 <h4> Desktop: Search Results </h4>
-                <div class="col-md-6">
-                  <picture>
-                    <source media="(max-width:767px)" srcset="img/wodhunt/desktop_midfid_searchresults@2x.jpg">
-                    <img src="img/wodhunt/desktop_midfid_searchresults@2x.jpg" alt="Desktop Mid-Fidelity Search Results">
-                  </picture>
+                <div class="row">
+                  <div class="col-md-6">
+                    <picture class="desktop">
+                      <source media="(max-width:430px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129076/WOD%20Hunt/compressed_img/desktop_midfid_searchresults.jpg">
+                      <source media="(min-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1200/v1620129074/WOD%20Hunt/compressed_img/desktop_midfid_searchresults_2x.jpg">
+                      <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129074/WOD%20Hunt/compressed_img/desktop_midfid_searchresults_2x.jpg">
+                      <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129074/WOD%20Hunt/compressed_img/desktop_midfid_searchresults_2x.jpg" alt="Desktop Wireframe Search Results High-Fidelity">
+                    </picture>
+                  </div>
+                  <div class="col-md-6">
+                    <picture class="desktop">
+                      <source media="(max-width:430px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129076/WOD%20Hunt/compressed_img/desktop_mockup_searchresults.jpg">
+                      <source media="(min-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1000/v1620129078/WOD%20Hunt/compressed_img/desktop_mockup_searchresults_2x.jpg">
+                      <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129078/WOD%20Hunt/compressed_img/desktop_mockup_searchresults_2x.jpg">
+                      <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129074/WOD%20Hunt/compressed_img/desktop_mockup_searchresults_2x.jpg" alt="Desktop Wireframe Search Results High-Fidelity">
+                    </picture>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                  <picture>
-                    <source media="(max-width:767px)" srcset="img/wodhunt/desktop_mockup_searchresults@2x.jpg">
-                    <img src="img/wodhunt/desktop_mockup_searchresults@2x.jpg" alt="Desktop Mockup Search Results">
-                  </picture>
-                </div>
+                
               </div>
           </div><!-- Prototype section ends -->
           <!-- Test section starts -->
@@ -586,18 +591,23 @@
             <h2> V Test </h2>
               <div> <!-- V.1 USABILITY TESTING-->
                 <h3> V.1 Usability Testing </h3>
-                  <p> In order to start the testing process, a usability test plan and script were compiled. Since this was the first round of usability tests, it was supposed to evaluate the learnability for new users interacting with the application for the first time on mobile. The aim was to examine and measure if users understand the app's navigation, purpose, value, and how to complete basic initial functions such as logging in, searching for, creating or playing a hunt. </p>
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-6">
+                    <p> In order to start the testing process, a usability test plan and script were compiled. Since this was the first round of usability tests, it was supposed to evaluate the learnability for new users interacting with the application for the first time on mobile.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>The aim was to examine and measure if users understand the app's navigation, purpose, value, and how to complete basic initial functions such as logging in, searching for, creating or playing a hunt. </p>
+                  </div>
+                </div> 
+                <div class="row">
+                  <div class="col-md-6">
                     <h4> Main Objectives </h4>
                     <ul>
-                      <li> Determine understanding of the app's purpose & value
-                      </li>
+                      <li> Determine understanding of the app's purpose & value</li>
                       <li> Observe navigation & successful completion of tasks </li>
                     </ul>
-                    <p> At this point in the design process, the app featured the toggle navigation with two parallel dashboards that divided the app into a create mode and a play mode. It was the main intention of this test to observe whether participants could understand and use this navigation logic.</p>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-6">
                     <h4> Methodology </h4>
                     <ul>
                       <li> Moderated in-person test </li>
@@ -606,43 +616,73 @@
                       <li> Recorded on video and with screen recording </li>
                     </ul>
                   </div>
-                  <div class="col-md-3">
-                    <h4> Findings </h4>
+                </div>
+                <h4> Findings </h4>
+                <div class="row">
+                  <div class="col-md-6">
                     <p> In order to structure the analysis and sort the findings into useful observations, several methods such as creating a rainbow spreadsheet or concept mapping were used as highlighted below.​​​​​​​</p>
                   </div>
+                  <div class="col-md-6">
+                    <p> At this point in the design process, the app featured the toggle navigation with two parallel dashboards that divided the app into a create mode and a play mode.
+                      <br>It was the main intention of this test to observe whether participants could understand and use this navigation logic.</p>
+                  </div>
+                  <picture>
+                    <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1500/v1620129102/WOD%20Hunt/compressed_img/utilitytestingresults.jpg">
+                    <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129102/WOD%20Hunt/compressed_img/utilitytestingresults.jpg">
+                    <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129106/WOD%20Hunt/compressed_img/utilitytestingresults_2x.jpg">
+                    <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129106/WOD%20Hunt/compressed_img/utilitytestingresults_2x.jpg" alt="Test Results">
+                  </picture>
                 </div>
-                <picture>
-                  <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_766/v1619857685/WOD%20Hunt/utilitytesting_results.jpg">
-                  <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1200/v1619857685/WOD%20Hunt/utilitytesting_results.jpg">
-                  <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1619857685/WOD%20Hunt/utilitytesting_results.jpg" alt="Test Results">
-                </picture>
+                
                 <h4> Main Issue: Navigation </h4>
-                  <p> Out of the six participants in the usability test, all could successfully search for and create a hunt. However, only two out of six could complete the task of starting to play a hunt on their own, which involved a switch in dashboards via the navigation toggle. The other four needed a hint to succeed. The participants found this type of navigation novel and not intuitive.
-                  </p>
-                  <p> Other issues involved the clarity of icons and redundance of help buttons as well as a simplification of the hunt creation flow.</p>
+                <div class="row">
+                  <div class="col-md-6">
+                    <p> Out of the six participants in the usability test, all could successfully search for and create a hunt. However, only two out of six could complete the task of starting to play a hunt on their own, which involved a switch in dashboards via the navigation toggle.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p> The other four needed a hint to succeed. The participants found this type of navigation novel and not intuitive. 
+                      <br>Other issues involved the clarity of icons and redundance of help buttons as well as a simplification of the hunt creation flow.</p>
+                  </div>
+                </div>
               </div>
               <div><!-- V.2 POLISHING THE DESIGN-->
                 <h3> V.2 Polishing the Design </h3>
-                <p> As soon as the kinks in the usability of the main flows were straightened out, I began to figure out the UI of <b>WOD Hunt</b>. For this process, I needed to choose the colours, shapes and mock up central components. By taking the Gestalt laws as well as emotional and visual principles of design into account, the app's UI was updated and improved in several iterations. </p>
+                <div class="row">
+                  <div class="col-md-6">
+                    <p> As soon as the kinks in the usability of the main flows were straightened out, I began to figure out the UI of <b>WOD Hunt</b>. For this process, I needed to choose the colours, shapes and mock up central components. </p>
+                  </div>
+                  <div class="col-md-6">
+                    <p>By taking the Gestalt laws as well as emotional and visual principles of design into account, the app's UI was updated and improved in several iterations. </p>
+                  </div>
+                </div>
               </div>
               <div> <!--V.3 EVOLUTION OF STYLE-->
                 <h3> V.3 Evolution of Style </h3>
                 <div class="row">
-                  <div class="col-md-6">
-                    <p> Since <b>WOD Hunt</b> is relying heavily on the ideas of CrossFit, will be done outdoors and is about hunting, the fox logo came to mind immediately. </p>
-                    <p> Based off this idea, the pine green color was chosen as its main color. CrossFit is usually about dark color themes and the idea of hunting and foxes reminded me of the woods. Green is also a calming and respectful color while the orange is exciting, energetic and matches the idea of the app. As I wanted a professional yet engaging app that also does not lead to cognitive overload, an off-white and off-black were chosen as the main background colors.</p>
+                  <div class="col-md-6 col-lg-4">
+                    <p> Since <b>WOD Hunt</b> is relying loosely on the ideas of <i>CrossFit</i>, will be done outdoors and is about hunting, the fox logo came to mind immediately. </p>
+                    <p> Based off this idea, the pine green color was chosen as its main color. <i>CrossFit</i> is usually about dark color themes and the idea of hunting and foxes reminded me of the woods. Green is also a calming and respectful color while the orange is exciting, energetic and matches the idea of the app. As I wanted a professional yet engaging app that also does not lead to cognitive overload, an off-white and off-black were chosen as the main background colors.</p>
                     <p> As soon as the ideas for the final mock ups and UI existed, the information was gathered systemically in a style guide in both a pdf and via Zeplin and further comprised in the visual design system.</p>
                   </div>
-                  <div class="col-md-6"> 
+                  <div class="col-md-6 col-lg-7"> 
                     <picture>
-                      <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_766/v1619877854/WOD%20Hunt/style.png">
-                      <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1200/v1619877854/WOD%20Hunt/style.png">
-                      <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1619877854/WOD%20Hunt/style.png" alt="minimockup">
+                      <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620206336/WOD%20Hunt/compressed_img/style_guide.png">
+                      <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620206336/WOD%20Hunt/compressed_img/style_guide_2x.png">
+                      <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126463/WOD%20Hunt/compressed_img/style.png">
+                      <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126463/WOD%20Hunt/style.png" alt="minimockup">
                     </picture>
                   </div>
                 </div>
               </div>
           </div><!-- Test section ends -->
+          <div class="container-wodhunt">
+            <div class="video-container">
+              <iframe media="(max-width:767px)" class="object-container" src="https://www.youtube.com/embed/fC5iwezEGj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!--<iframe media="(max-width:767px)" width="360" height="215" src="https://www.youtube.com/embed/fC5iwezEGj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe media="(min-width:767px)" width="560" height="315" src="https://www.youtube.com/embed/fC5iwezEGj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe media="(min-width:767px)" width="760" height="515" src="https://www.youtube.com/embed/fC5iwezEGj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          </div>
         </div><!-- Process section ends -->
         <!-- Conclusion section starts -->
         <div class="container-wodhunt">
@@ -679,13 +719,12 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 col-lg-7">
+              <div class="col-md-6">
                 <h3> Different Approaches </h3>
-                <p> Lastly, in retrospect I would tweak the process I have undergone in a few minor areas. Having learned how to use <i>Adobe XD</i> and other software more efficiently over the course of the project, I can say that in retrospect I would create and label my components and groups as early as possible and save the primary ones on the style guide for a more efficient work flow. Furthermore, I would use tools such as Zeplin and others to be more efficient in handovers. Lastly, I would strive to create low-, mid- and high-fidelity wireframes of both desktop and mobile at the same time, so as to ensure that both work seamlessly and are congruent in their usability.
-                </p>
+                <p> Lastly, in retrospect I would tweak the process I have undergone in a few minor areas. Having learned how to use <i>Adobe XD</i> and other software more efficiently over the course of the project, I can say that in retrospect I would create and label my components and groups as early as possible and save the primary ones on the style guide for a more efficient work flow. </p>
               </div>
-              <div>
-                <!-- IMAGE / ILLUSTRATION OF PROGRESS-->
+              <div class="col-md-6">
+                <p> I would use tools such as Zeplin and others to be more efficient in handovers. Lastly, I would strive to create low-, mid- and high-fidelity wireframes of both desktop and mobile at the same time, so as to ensure that both work seamlessly and are congruent in their usability.</p>
               </div>
             </div>
         </div>
@@ -693,14 +732,23 @@
         </div><!-- Process section ends -->
         <!-- Story ending section starts -->
         <picture>
-          <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_766/v1619859611/WOD%20Hunt/story_ending.png">
-          <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1200/v1619859611/WOD%20Hunt/story_ending.png">
-          <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1619859611/WOD%20Hunt/story_ending.png" alt="The End">
+          <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1000/v1620129102/WOD%20Hunt/compressed_img/storyending.png">
+          <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_2000/v1620129102/WOD%20Hunt/compressed_img/storyending_2x.png">
+          <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129102/WOD%20Hunt/compressed_img/storyending_2x.png">
+          <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129102/WOD%20Hunt/compressed_img/storyending_2x.png" alt="The End">
         </picture>
         <div class="container-wodhunt">
           <h1> Thank you! </h1>
         </div>
         <!-- Story ending section ends -->
+        <div class="container-wodhunt">
+          <picture>
+            <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_800/v1620208042/WOD%20Hunt/compressed_img/mockup_final_img_cmp.png">
+            <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1352/v1620208042/WOD%20Hunt/compressed_img/mockup_final_img_cmp.png">
+            <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620208047/WOD%20Hunt/mockup_final_img_2x.png">
+            <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620208047/WOD%20Hunt/mockup_final_img_2x.png" alt="Finale">
+          </picture>
+        </div>
         <!-- Credit section starts -->
         <div class="container-wodhunt">
           <h2> Credit </h2>

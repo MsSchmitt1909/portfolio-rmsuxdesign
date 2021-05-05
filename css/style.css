@@ -184,7 +184,9 @@ main {
 }
 
 .about-hero-section {
-  padding-top: 120px;
+  padding-top: 60px;
+  background-color: #617769;
+  color: #FFFCFA;
 }
 
 .impressum {
@@ -460,10 +462,6 @@ nav ul > li > a:visited {
   stroke-width: 6.5px;
 }
 
-.about-title h1 {
-  color: #5D7487;
-}
-
 .berlin-illustration {
   width: 100%;
   max-width: 100%;
@@ -570,6 +568,85 @@ nav ul > li > a:visited {
   margin-top: 50px;
   vertical-align: middle;
 }
+
+/* ==============================
+Separate Styles for WODHUNT
+================================= */
+body#wodhunt {
+  background: #052614;
+  font-family: 'helvetica new', sans-serif;
+  font-size: 12px; /* Sets the font size to 12px */
+  font-weight: 400; /* Sets the font weight to 300 */
+  line-height: 1.2; /* Sets the line-height to 1.2 * the font-size */
+  color: #3A4854;
+  }
+
+  #wodhunt h1 {
+    font-size: 2.0em;
+    font-weight: 700;
+    color: #F27F1C;
+    text-align: center;
+    margin: 10px;
+    font-family: 'helvetica';
+  }
+
+  #wodhunt h2 {
+    font-size: 1.75em;
+    font-weight: 700;
+    color: #052614;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+    display: inline-flex;
+  }
+
+  #wodhunt h2, #wodhunt h3, #wodhunt h4 {
+   font-family: 'helvetica';
+  }
+
+  #wodhunt h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #F27F1C;
+    margin: 10px;
+    text-align: center;
+  }
+
+  #wodhunt h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+    text-align:center;
+    margin: 10px;
+    color: #303135;
+  }
+
+  #wodhunt li {
+    font-size: 1em;
+    font-weight: 400;
+    color: #F27F1C;
+  }
+  
+  #wodhunt a {
+  color: #F27F1C;
+  }
+
+#carouselSignUp {
+  max-height: 500px;
+  }
+
+  .video-container { 
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 /* ==============================
 Medium devices (640px and larger)
@@ -713,34 +790,34 @@ Large devices (1024px or larger)
       line-height: 1.4;
     }
     h1 {
-      font-size: 2.75em;
+      font-size: 2.0em;
       font-weight: 700;
       color: #FFCCB3;
       text-align: center;
     }
 
     h2 {
-      font-size: 2.25em;
+      font-size: 1.75em;
       font-weight: 700;
       color: #5D7487;
     }
 
     h3 {
-      font-size: 2.0em;
+      font-size: 1.5em;
       font-weight: 400;
       color: #617769;
     }
     h4 {
-      font-size: 1.75em;
+      font-size: 1.35em;
       font-weight: 400;
     }
 
     p {
-      font-size: 1.35em;
+      font-size: 1.25em;
     }
 
     ol {
-      font-size: 1.35em;
+      font-size: 1.25em;
       color: #052614;
     }
 
@@ -766,6 +843,11 @@ Large devices (1024px or larger)
 
     .research {
       max-width: 600px;
+    }
+
+    #sports {
+      max-width: 80%;
+      justify-content: center;
     }
 }
 
@@ -816,30 +898,30 @@ X-large devices (1440px or larger)
       line-height: 1.6;
     }
     h1 {
-      font-size: 2.25em;
+      font-size: 1.75em;
       font-weight: 700;
       color: #FFCCB3;
       text-align: center;
     }
 
     h2 {
-      font-size: 2.0em;
+      font-size: 1.5em;
       font-weight: 700;
       color: #5D7487;
     }
 
     h3 {
-      font-size: 1.75em;
+      font-size: 1.35em;
       font-weight: 400;
       color: #617769;
     }
     h4 {
-      font-size: 1.35em;
+      font-size: 1.25em;
       font-weight: 400;
     }
 
     p {
-      font-size: 1.5em;
+      font-size: 1.15em;
     }
     .logo {
       max-width: 120px;
@@ -976,18 +1058,18 @@ X-large devices (1440px or larger)
 
 /* ==============================
 Separate Styles for WODHUNT
-================================= */
+================================= 
  body#wodhunt {
   background: #052614;
   font-family: 'helvetica new', sans-serif;
-  font-size: 12px; /* Sets the font size to 12px */
-  font-weight: 400; /* Sets the font weight to 300 */
-  line-height: 1.2; /* Sets the line-height to 1.2 * the font-size */
+  font-size: 12px; /* Sets the font size to 12px *//*
+  font-weight: 400; /* Sets the font weight to 300 *//*
+  line-height: 1.2; /* Sets the line-height to 1.2 * the font-size *//*
   color: #3A4854;
   }
 
   #wodhunt h1 {
-    font-size: 2.25em;
+    font-size: 2.0em;
     font-weight: 700;
     color: #F27F1C;
     text-align: center;
@@ -996,7 +1078,7 @@ Separate Styles for WODHUNT
   }
 
   #wodhunt h2 {
-    font-size: 2.0em;
+    font-size: 1.75em;
     font-weight: 700;
     color: #052614;
     margin: 10px;
@@ -1010,7 +1092,7 @@ Separate Styles for WODHUNT
   }
 
   #wodhunt h3 {
-    font-size: 1.75em;
+    font-size: 1.5em;
     font-weight: 400;
     color: #F27F1C;
     margin: 10px;
@@ -1018,7 +1100,7 @@ Separate Styles for WODHUNT
   }
 
   #wodhunt h4 {
-    font-size: 1.5em;
+    font-size: 1.35em;
     font-weight: 400;
     text-align:center;
     margin: 10px;
@@ -1033,8 +1115,22 @@ Separate Styles for WODHUNT
   
   #wodhunt a {
   color: #F27F1C;
-
-  #carouselSignUp {
-    max-height: 500px; 
   }
-}
+
+#carouselSignUp {
+  max-height: 500px;
+  }
+
+  .video-container { 
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; } */
