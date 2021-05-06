@@ -90,7 +90,7 @@ a:hover {
 a:focus,
 a:active,
 a:visited {
-  color: #B9DCFA;
+  color: #5D7487;
 }
 
 
@@ -420,6 +420,8 @@ nav ul > li > a:visited {
   text-transform: uppercase;
   border: 2px solid #5D7487;
   transition: 0.2s opacity;
+  display: flex;
+  justify-content: center;
 }
 
 .button.cv:hover {
@@ -558,7 +560,15 @@ nav ul > li > a:visited {
 }
 
 .vocabquestimg {
-  max-width: 70%;
+  display: flex;
+  max-width: fit-content;
+  vertical-align: middle;
+}
+
+.essayimg {
+  display: flex;
+  max-width: fit-content;
+  vertical-align: middle;
 }
 
 .wodhunttitle {
@@ -566,6 +576,10 @@ nav ul > li > a:visited {
   max-height: 680px;
   margin-top: 50px;
   vertical-align: middle;
+}
+
+#work img.wodhunttitle {
+  margin-top: 0px;
 }
 
 /* ==============================
@@ -628,6 +642,7 @@ body#wodhunt {
   #wodhunt a {
   color: #F27F1C;
   }
+
   #wodhunt img {
     width: 100%;
     padding-left: 10px;
@@ -642,6 +657,8 @@ body#wodhunt {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 0;
     overflow: hidden; }
 
@@ -668,6 +685,10 @@ Separate Styles for VOCABQUEST
 }
 
 #vocabquest>div>div>div>p>a {
+  color: #762984;
+}
+
+#vocabquest a {
   color: #762984;
 }
 
@@ -741,8 +762,8 @@ Medium devices (640px and larger)
     width: 33%;
   }
 
-  .vocabquestimg {
-    max-width: 60%;
+  .col-md-9 {
+    width: 67%;
   }
 
   body {
@@ -758,25 +779,25 @@ Medium devices (640px and larger)
       line-height: 1.2;
     }
     h1 {
-      font-size: 2.25em;
+      font-size: 2em;
       font-weight: 700;
       color: #FFCCB3;
       text-align: center;
     }
 
     h2 {
-      font-size: 2.0em;
+      font-size: 1.75em;
       font-weight: 700;
       color: #5D7487;
     }
 
     h3 {
-      font-size: 1.75em;
+      font-size: 1.5em;
       font-weight: 400;
       color: #617769;
     }
     h4 {
-      font-size: 1.35em;
+      font-size: 1.25em;
       font-weight: 400;
     }
     .animation-2 {
@@ -792,6 +813,10 @@ Medium devices (640px and larger)
     .photo-credit {
       font-size: 12px;
       text-align: center;
+    }
+    
+    .work-img {
+      max-width: fit-content;
     }
 }
 
@@ -848,12 +873,12 @@ Large devices (1024px or larger)
       color: #617769;
     }
     h4 {
-      font-size: 1.35em;
+      font-size: 1.25em;
       font-weight: 400;
     }
 
     p {
-      font-size: 1.25em;
+      font-size: 1em;
     }
 
     ol {
@@ -871,10 +896,6 @@ Large devices (1024px or larger)
       max-width: 800px;
     }
 
-    .vocabquestimg {
-      max-width: 50%;
-    }
-
     .research {
       max-width: 600px;
     }
@@ -882,6 +903,8 @@ Large devices (1024px or larger)
     #sports {
       max-width: 80%;
       justify-content: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 }
 
@@ -955,7 +978,7 @@ X-large devices (1440px or larger)
     }
 
     p {
-      font-size: 1.15em;
+      font-size: 1em;
     }
     
     .wodhunttitle {
