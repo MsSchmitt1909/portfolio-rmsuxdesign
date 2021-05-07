@@ -132,9 +132,8 @@ header>div>a {
 
 #hero {
   background-color: #617769;
-  padding: 20px 0;
-  padding-top: 70px;
-  display: inline-block;
+  padding: 70 0 20 0;
+  display: block;
   width: 100%;
   box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.33);
   border-radius: 10px;
@@ -564,12 +563,7 @@ nav ul > li > a:visited {
   max-width: fit-content;
   vertical-align: middle;
 }
-
-.essayimg {
-  display: flex;
-  max-width: fit-content;
-  vertical-align: middle;
-}
+ 
 
 .wodhunttitle {
   max-width: 100%;
