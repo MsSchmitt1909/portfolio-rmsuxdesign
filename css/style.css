@@ -1219,3 +1219,12 @@ X-large devices (1440px or larger)
       0% {opacity: 0; transform: translateY(30px);}
       100% {opacity: 1; transform: inherit;}
     } 
+
+
+  .round-picture-container img {
+    max-width: 404px;
+  }
+
+  .round-picture-container picture {
+    display: block;
+  }
