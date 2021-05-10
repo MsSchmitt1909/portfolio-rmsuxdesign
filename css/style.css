@@ -648,10 +648,6 @@ body#wodhunt {
     padding-right: 10px;
   }
 
-#carouselSignUp {
-  max-height: 500px;
-  }
-
   .video-container { 
     position: relative;
     padding-bottom: 56.25%;
@@ -890,11 +886,7 @@ Large devices (1024px or larger)
       display: inline-flex;
       margin-left: 10px;
     }
-
-    .process {
-      max-width: 800px;
-    }
-
+    
     .research {
       max-width: 600px;
     }
@@ -1234,6 +1226,8 @@ X-large devices (1440px or larger)
     display: block;
   }
 
+
+
   .carousel-container {
     display: flex;
     justify-content: center;
@@ -1255,3 +1249,12 @@ X-large devices (1440px or larger)
   height: 25px;
   background: 50% / 100% 100% no-repeat;
 }
+
+.resize-img {
+  border-radius: 2%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+  }

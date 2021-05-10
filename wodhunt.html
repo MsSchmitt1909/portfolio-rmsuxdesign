@@ -110,18 +110,23 @@
           </picture>
             <h2> The Process </h2>
             <div>
-              <picture>
-                <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1500/v1620129086/WOD%20Hunt/compressed_img/process.png">
-                <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129086/WOD%20Hunt/compressed_img/process.png">
-                <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_2000/v1620129086/WOD%20Hunt/compressed_img/process_2x_png.png">
-                <img class="process" src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129086/WOD%20Hunt/compressed_img/process_2x_png.png" alt="process">
-              </picture>
-              <picture>
-                <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_800/v1620129101/WOD%20Hunt/compressed_img/tools.png">
-                <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129101/WOD%20Hunt/compressed_img/tools.png">
-                <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129102/WOD%20Hunt/compressed_img/tools_2x.png">
-                <img class="process" src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129102/WOD%20Hunt/compressed_img/tools_2x.png" alt="tools">
-              </picture>
+              <div class="img-container">
+                <picture>
+                  <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1500/v1620129086/WOD%20Hunt/compressed_img/process.png">
+                  <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129086/WOD%20Hunt/compressed_img/process.png">
+                  <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_2000/v1620129086/WOD%20Hunt/compressed_img/process_2x_png.png">
+                  <img class="process" src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129086/WOD%20Hunt/compressed_img/process_2x_png.png" alt="process">
+                </picture>
+              </div>
+              <div class="img-container">
+                 <picture>
+                  <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_800/v1620129101/WOD%20Hunt/compressed_img/tools.png">
+                  <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129101/WOD%20Hunt/compressed_img/tools.png">
+                  <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129102/WOD%20Hunt/compressed_img/tools_2x.png">
+                  <img class="process radius-img" src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129102/WOD%20Hunt/compressed_img/tools_2x.png" alt="tools">
+                </picture>
+              </div>
+             
             </div>
         </div><!-- Process overview section ends -->
         <div><!-- Process section starts -->
@@ -211,12 +216,14 @@
                       <li>Collecting data on the context in which users would use an outdoor 
                       exercise scavenger hunt app.</li>
                   </ol>
-                  <picture>
-                    <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620135691/WOD%20Hunt/compressed_img/research.png">
-                    <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129088/WOD%20Hunt/compressed_img/research3_2x.png">
-                    <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129088/WOD%20Hunt/compressed_img/research3_2x.png">
-                    <img class="research" src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129088/WOD%20Hunt/compressed_img/research3_2x.png" alt="Research Graph">
-                  </picture> <br>
+                  <div class="img-container">
+                    <picture>
+                      <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620135691/WOD%20Hunt/compressed_img/research.png">
+                      <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129088/WOD%20Hunt/compressed_img/research3_2x.png">
+                      <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129088/WOD%20Hunt/compressed_img/research3_2x.png">
+                      <img class="research" src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129088/WOD%20Hunt/compressed_img/research3_2x.png" alt="Research Graph">
+                    </picture> 
+                  </div>
                   <p>Interesting <b>findings</b> from the <b>survey</b> included: </p>
                   <ul>
                     <li>Most people have done a scavenger hunt before, but not regularly;</li>
@@ -228,41 +235,45 @@
                   </ul>
                   <p> In the meantime, I held four personal interviews which lasted between 18 and 26 minutes that provided me with some in-depth insights and learnings to then aggregate and sort these via an affinity map.</p>
                   <!-- Image carousel of research insights -->
-                  <div id="carouselResearchInsights" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-container">
+                    <div id="carouselResearchInsights" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                       <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
                       <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
                       <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129088/WOD%20Hunt/compressed_img/researchinsights1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129093/WOD%20Hunt/compressed_img/researchinsights2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129094/WOD%20Hunt/compressed_img/researchinsights3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129095/WOD%20Hunt/compressed_img/researchinsights4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
                     </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129088/WOD%20Hunt/compressed_img/researchinsights1.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129093/WOD%20Hunt/compressed_img/researchinsights2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129094/WOD%20Hunt/compressed_img/researchinsights3.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129095/WOD%20Hunt/compressed_img/researchinsights4.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
                   </div>
-                  <picture>
-                    <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_766/v1619857643/WOD%20Hunt/affinitymap.jpg">
-                    <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1200/v1619857643/WOD%20Hunt/affinitymap.jpg">
-                    <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1619857643/WOD%20Hunt/affinitymap.jpg" alt="Affinity Map">
-                  </picture>
+                  <div class="img-container">
+                    <picture>
+                      <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_766/v1619857643/WOD%20Hunt/affinitymap.jpg">
+                      <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1200/v1619857643/WOD%20Hunt/affinitymap.jpg">
+                      <img class="radius-img" src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1619857643/WOD%20Hunt/affinitymap.jpg" alt="Affinity Map">
+                    </picture>
+                  </div>
                   <p> The affinity map aggregates the findings, such as quotes, behaviours, attitudes, needs and goals as well as frustrations from the interviews in different categories (purple). </p>
                 </div>
                 <div><!-- I.4 USER PERSONAS-->
@@ -311,7 +322,8 @@
                 <h3> II.1 User Journeys </h3>
                 <p> Based on the personas, the ideation process of <b>WOD Hunt</b> could finally start. The next step uses the personas created and creates each persona's journey through the app, culminating in user flows. </p>
                 <!-- Carousel of User Journeys -->
-                <div id="carouselUserJourneys" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-container">
+                  <div id="carouselUserJourneys" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -349,13 +361,15 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
+                </div>
               </div>
               <div><!--II.2 USER FLOWS-->
                 <h3> II.2 User Flows </h3>
                 <p> By now, it became high time to find solutions. To accomplish this, a flow was created for each persona aiming to fulfil their main needs and objectives.</p>
                 <p> These flows visualise the separate screens needed in order to complete a persona's task. For each main task, an entry point and success criteria were defined.</p>
                 <!-- Carousel of User Flows -->
-                <div id="carouselUserFlows" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-container">
+                  <div id="carouselUserFlows" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -381,17 +395,20 @@
                     <span class="visually-hidden">Next</span>
                   </button>
                 </div>
+                </div>
               </div>
               <div><!-- II.3 SITEMAP-->
                 <h3> II.3 Sitemap </h3>
                 <p> Subsequently, based on the individual flows and the planned elements of the app, the information architecture was created and visualised in the form of a sitemap.</p>
                 <p> The initial sitemap went through several iterations based on user testing via card sorts and also further developments during the prototyping phase. </p>
-                <picture>
-                  <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129098/WOD%20Hunt/compressed_img/sitemap.png">
-                  <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126448/WOD%20Hunt/sitemap_png.png">
-                  <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126449/WOD%20Hunt/sitemap_2x.jpg">
-                  <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126449/WOD%20Hunt/sitemap_2x.jpg" alt="Sitemap">
-                </picture>
+                <div class="img-container">
+                  <picture>
+                    <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129098/WOD%20Hunt/compressed_img/sitemap.png">
+                    <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126448/WOD%20Hunt/sitemap_png.png">
+                    <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126449/WOD%20Hunt/sitemap_2x.jpg">
+                    <img class="radius-img" src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126449/WOD%20Hunt/sitemap_2x.jpg" alt="Sitemap">
+                  </picture>
+                </div>
               </div>
           </div><!-- Define section ends -->
           <!-- Ideate section starts -->
@@ -417,7 +434,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-6"><!-- Carousel of Sign Up Wireframes -->
+                  <div class="col-md-6 carousel-container"><!-- Carousel of Sign Up Wireframes -->
                     <div id="carouselSignUp" class="carousel slide" data-bs-ride="carousel">
                       <ol class="carousel-indicators">
                         <li data-target="#carouselSignUp" data-slide-to="0" class="active"></li>
@@ -456,7 +473,7 @@
                       </a>
                     </div>
                   </div>
-                  <div class="col-md-6"><!-- Carousel of the Navigation -->
+                  <div class="col-md-6 carousel-container"><!-- Carousel of the Navigation -->
                     <div id="carouselNav" class="carousel slide" data-bs-ride="carousel">
                       <ol class="carousel-indicators">
                         <li data-target="#carouselNav" data-slide-to="0" class="active"></li>
@@ -625,12 +642,14 @@
                     <p> At this point in the design process, the app featured the toggle navigation with two parallel dashboards that divided the app into a create mode and a play mode.
                       <br>It was the main intention of this test to observe whether participants could understand and use this navigation logic.</p>
                   </div>
-                  <picture>
-                    <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1500/v1620129102/WOD%20Hunt/compressed_img/utilitytestingresults.jpg">
-                    <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129102/WOD%20Hunt/compressed_img/utilitytestingresults.jpg">
-                    <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129106/WOD%20Hunt/compressed_img/utilitytestingresults_2x.jpg">
-                    <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129106/WOD%20Hunt/compressed_img/utilitytestingresults_2x.jpg" alt="Test Results">
-                  </picture>
+                  <div class="img-container">
+                    <picture >
+                      <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1500/v1620129102/WOD%20Hunt/compressed_img/utilitytestingresults.jpg">
+                      <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129102/WOD%20Hunt/compressed_img/utilitytestingresults.jpg">
+                      <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129106/WOD%20Hunt/compressed_img/utilitytestingresults_2x.jpg">
+                      <img class="radius-img" src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129106/WOD%20Hunt/compressed_img/utilitytestingresults_2x.jpg" alt="Test Results">
+                    </picture>
+                  </div>
                 </div>
                 
                 <h4> Main Issue: Navigation </h4>
@@ -668,7 +687,7 @@
                       <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620206336/WOD%20Hunt/compressed_img/style_guide.png">
                       <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620206336/WOD%20Hunt/compressed_img/style_guide_2x.png">
                       <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126463/WOD%20Hunt/compressed_img/style.png">
-                      <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126463/WOD%20Hunt/style.png" alt="minimockup">
+                      <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620126463/WOD%20Hunt/style.png" alt="style">
                     </picture>
                   </div>
                 </div>
@@ -740,7 +759,7 @@
           <h1> Thank you! </h1>
         </div>
         <!-- Story ending section ends -->
-        <div class="container-wodhunt">
+        <div class="container-wodhunt img-container">
           <picture>
             <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_800/v1620208042/WOD%20Hunt/compressed_img/mockup_final_img_cmp.png">
             <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_1352/v1620208042/WOD%20Hunt/compressed_img/mockup_final_img_cmp.png">
