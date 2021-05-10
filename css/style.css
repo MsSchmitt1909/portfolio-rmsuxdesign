@@ -642,12 +642,6 @@ body#wodhunt {
   color: #F27F1C;
   }
 
-  #wodhunt img {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .video-container { 
     position: relative;
     padding-bottom: 56.25%;
@@ -886,7 +880,7 @@ Large devices (1024px or larger)
       display: inline-flex;
       margin-left: 10px;
     }
-    
+
     .research {
       max-width: 600px;
     }
@@ -1249,12 +1243,21 @@ X-large devices (1440px or larger)
   height: 25px;
   background: 50% / 100% 100% no-repeat;
 }
-
-.resize-img {
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.radius-img {
   border-radius: 2%;
+  max-width: 800px;
+}
+.process {
+  max-width: 800px;
 }
 
-.img-container {
-    display: flex;
-    justify-content: center;
-  }
+.tools {
+  max-width: 600px;
+}
+
