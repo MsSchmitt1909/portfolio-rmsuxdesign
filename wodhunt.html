@@ -237,12 +237,12 @@
                   <!-- Image carousel of research insights -->
                   <div class="carousel-container">
                     <div id="carouselResearchInsights" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                      </div>
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselResearchInsights" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselResearchInsights" data-slide-to="1"></li>
+                        <li data-target="#carouselResearchInsights" data-slide-to="2"></li>
+                        <li data-target="#carouselResearchInsights" data-slide-to="3"></li>
+                      </ol>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                           <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129088/WOD%20Hunt/compressed_img/researchinsights1.jpg" class="d-block w-100" alt="...">
@@ -257,14 +257,19 @@
                           <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129095/WOD%20Hunt/compressed_img/researchinsights4.jpg" class="d-block w-100" alt="...">
                         </div>
                       </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
+                      <a class="carousel-control-prev" href="#carouselResearchInsights" role="button" data-slide="prev">
+                        <i class="bi bi-chevron-left" style="font-size: 3rem; color: #F27F1C;"></i>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselResearchInsights" role="button" data-slide="next">
+                        <i class="bi bi-chevron-right" style="font-size: 3rem; color: #F27F1C;"></i>
+                      </a>
+                    </div>
+                    <div id="carouselUserPersonas" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselUserPersonas" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselUserPersonas" data-slide-to="1"></li>
+                        <li data-target="#carouselUserPersonas" data-slide-to="2"></li>
+                      </ol>
                     </div>
                   </div>
                   <div class="img-container">
@@ -324,14 +329,14 @@
                 <!-- Carousel of User Journeys -->
                 <div class="carousel-container">
                   <div id="carouselUserJourneys" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                  </div>
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselUserJourneys" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselUserJourneys" data-slide-to="1"></li>
+                      <li data-target="#carouselUserJourneys" data-slide-to="2"></li>
+                      <li data-target="#carouselUserJourneys" data-slide-to="3"></li>
+                      <li data-target="#carouselUserJourneys" data-slide-to="4"></li>
+                      <li data-target="#carouselUserJourneys" data-slide-to="5"></li>
+                    </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129078/WOD%20Hunt/compressed_img/journeyruben.jpg" class="d-block w-100" alt="...">
@@ -352,14 +357,12 @@
                       <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129082/WOD%20Hunt/compressed_img/objectivedommy.jpg" class="d-block w-100" alt="...">
                     </div>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                  <a class="carousel-control-prev" href="#carouselUserJourneys" role="button" data-slide="prev">
+                    <i class="bi bi-chevron-left" style="font-size: 3rem; color: #F27F1C;"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselUserJourneys" role="button" data-slide="next">
+                    <i class="bi bi-chevron-right" style="font-size: 3rem; color: #F27F1C;"></i>
+                  </a>
                 </div>
                 </div>
               </div>
@@ -370,11 +373,11 @@
                 <!-- Carousel of User Flows -->
                 <div class="carousel-container">
                   <div id="carouselUserFlows" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  </div>
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselUserFlows" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselUserFlows" data-slide-to="1"></li>
+                      <li data-target="#carouselUserFlows" data-slide-to="2"></li>
+                    </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129074/WOD%20Hunt/compressed_img/flowruben.jpg" class="d-block w-100" alt="...">
@@ -386,14 +389,12 @@
                       <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620129075/WOD%20Hunt/compressed_img/flowdommy.jpg" class="d-block w-100" alt="...">
                     </div>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                  <a class="carousel-control-prev" href="#carouselUserFlows" role="button" data-slide="prev">
+                    <i class="bi bi-chevron-left" style="font-size: 3rem; color: #F27F1C;"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselUserFlows" role="button" data-slide="next">
+                    <i class="bi bi-chevron-right" style="font-size: 3rem; color: #F27F1C;"></i>
+                  </a>
                 </div>
                 </div>
               </div>
@@ -697,9 +698,6 @@
             <div class="video-container">
               <iframe class="object-container" src="https://www.youtube.com/embed/fC5iwezEGj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <!--<iframe media="(max-width:767px)" width="360" height="215" src="https://www.youtube.com/embed/fC5iwezEGj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe media="(min-width:767px)" width="560" height="315" src="https://www.youtube.com/embed/fC5iwezEGj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe media="(min-width:767px)" width="760" height="515" src="https://www.youtube.com/embed/fC5iwezEGj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
           </div>
         </div><!-- Process section ends -->
         <!-- Conclusion section starts -->
