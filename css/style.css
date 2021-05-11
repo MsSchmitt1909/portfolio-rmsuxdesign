@@ -1261,3 +1261,6 @@ X-large devices (1440px or larger)
   max-width: 600px;
 }
 
+#wodhunt .row {
+  justify-content: space-between;
+}
