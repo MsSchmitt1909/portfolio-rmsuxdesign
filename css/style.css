@@ -1220,8 +1220,6 @@ X-large devices (1440px or larger)
     display: block;
   }
 
-
-
   .carousel-container {
     display: flex;
     justify-content: center;
@@ -1243,6 +1241,7 @@ X-large devices (1440px or larger)
   height: 25px;
   background: 50% / 100% 100% no-repeat;
 }
+
 .img-container {
   display: flex;
   justify-content: center;
