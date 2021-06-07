@@ -236,6 +236,10 @@ main {
   display: inline-block;
 }
 
+.behance {
+  min-width: 46px;
+}
+
 .logo {
   max-width: 80px;
   max-height: 80px;
@@ -373,6 +377,82 @@ nav ul > li > a:visited {
   margin-left: 10px;
 }
 
+/* ==============================
+Styles for CONTACT FORM
+================================= */
+.contact-title {
+  color: #5D7487;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+  padding-top: 0px;
+}
+
+.contact-title h2 {
+  padding-top: 10px;
+  font-size: 1.0em;
+  font-family: 'roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+form {
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  display: inline-block;
+  background: #FFE0D1;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #5D7487;
+  color: #3A4854;
+  font-size: 1.0em;
+  font-family: 'roboto', sans-serif;
+  margin: 0px 10px 16px;
+}
+
+textarea {
+  display: inline-block;
+  color: #3A4854;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #5D7487;
+  font-size: 1.0em;
+  font-family: 'roboto', sans-serif;
+  margin-bottom: 16px;
+  align-content: center;
+}
+
+input {
+  height: 45px;
+}
+
+form .button.submit {
+  background-color: transparent;
+  color: #5D7487;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  border: 2px solid #5D7487;
+  transition: 0.2s opacity;
+}
+  
+form .button.submit:hover {
+  background-color: #5D7487;
+  color: #FFFCFA;
+}
+  
+form .button.submit:active {
+  opacity: 0.6;
+  border-radius: 12px;
+}
+
+/* ==============================
+End of styles for CONTACT FORM
+================================= */
+
 /*needs to be at the bottom as it's very specific */
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -399,11 +479,14 @@ nav ul > li > a:visited {
   background-color: transparent;
   color: #5D7487;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
   text-transform: uppercase;
   border: 2px solid #5D7487;
   transition: 0.2s opacity;
+  height: 45px;
+  display: inline-block;
 }
 
 .button.contact:hover {
@@ -1263,3 +1346,4 @@ X-large devices (1440px or larger)
 #wodhunt .row {
   justify-content: space-between;
 }
+
