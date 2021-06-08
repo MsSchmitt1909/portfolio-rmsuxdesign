@@ -795,6 +795,12 @@ Separate Styles for VOCABQUEST
   color: #762984;
 }
 
+.video-vq {
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
