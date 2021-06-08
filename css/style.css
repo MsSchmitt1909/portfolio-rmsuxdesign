@@ -658,6 +658,8 @@ End of styles for CONTACT FORM
   max-height: 680px;
   margin-top: 50px;
   vertical-align: middle;
+  border: #052614;
+  border-radius: 15px;
 }
 
 #work img.wodhunttitle {
