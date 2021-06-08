@@ -1347,3 +1347,10 @@ X-large devices (1440px or larger)
   justify-content: space-between;
 }
 
+.thankyou h1 {
+  margin-top: 50px;
+}
+
+.thankyou h2 {
+color: #FFFCFA;
+}
