@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Antic&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Antic&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=Rokkitt:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Antic&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1cac191fbb.js" crossorigin="anonymous"></script>
+  <title> RMS UX Design </title>
+</head>
+
+<body>
+  <!-- Header content starts here -->
+  <header id="header">
+    <div class="navtoggle" id="myNavtoggle">
+      <a href="index.html">
+        <img src="img/rmsuxdesignlogo.svg" alt="logo" class="logo">
+      </a>
+      <nav>
+        <div class="container borderXwidth">
+          <ul>
+            <li><a href="about_rms.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="essay.html">Essay</a></li>
+            <li><a href="#getintouch">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Header content ends -->
+  <!-- Main content starts here -->
+  <main>
+    <!-- For the hero section -->
+    <div class="hero-container">
+      <div class="container" id="hero" >
+        <div class="row"><!-- row for columns -->
+            <div class="col-md-6 col-lg-5 photo-credit">
+                <picture>
+                <source media="(max-width:767px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_600/v1620210943/WOD%20Hunt/compressed_img/maija_cmp.jpg">
+                <source media="(min-width:768px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/c_scale,w_800/v1620210943/WOD%20Hunt/compressed_img/maija_cmp.jpg">
+                <source media="(min-width:1000px)" srcset="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620210943/WOD%20Hunt/compressed_img/maija_cmp.jpg">
+                <img src="https://res.cloudinary.com/rmsuxdesign/image/upload/v1620210943/WOD%20Hunt/compressed_img/maija_cmp.jpg" alt="Maija">
+                </picture>
+                <p>Photo by <a href="https://www.simongrafie.de">Simon Grundmann</a>
+                </p> 
+            </div> 
+            <div class="col-md-6 col-lg-5 thankyou">
+            <h1> Thank you!</h1>
+            <h2>I will get back to you as soon as possible. <br>
+            Have a great day!</h2>
+            <p> Don't forget to check out some of my <a href="#work">work</a> or find out more <a href="#about">about me</a>.</p>
+            </div>
+        </div>
+      </div><!-- hero section ends -->
+    </div>
+  </main>
+  <!-- Main content ends -->
+
+  <div class="copyright">
+    <div class="row"> <!-- all contact options in 3 column row -->
+      <div class="col-md-3"> <!-- open first column -->
+       <p>Copyright Ritva Maija Schmitt 2021. All rights reserved. </p>
+      </div><!-- end first column-->
+      <div class="col-md-3"> <!-- open second column -->
+       <p><a href="impressum.html">Legal Notice</a></p>
+      </div> <!-- end second column-->
+      <div class="col-md-3"> <!-- open third column -->
+        <p>Terms of Service </p>
+       </div><!-- end third column-->
+    </div>
+  </div>
+  <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
