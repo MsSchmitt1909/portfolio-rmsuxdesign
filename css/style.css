@@ -478,8 +478,7 @@ End of styles for CONTACT FORM
 .button.contact {
   background-color: transparent;
   color: #5D7487;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px;
   padding: 10px;
   text-transform: uppercase;
   border: 2px solid #5D7487;
