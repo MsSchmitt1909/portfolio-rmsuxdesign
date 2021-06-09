@@ -480,12 +480,11 @@ End of styles for CONTACT FORM
   color: #5D7487;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 10px;
   text-transform: uppercase;
   border: 2px solid #5D7487;
   transition: 0.2s opacity;
-  height: 45px;
+  max-height: 45px;
   display: inline-block;
 }
 
@@ -653,14 +652,6 @@ End of styles for CONTACT FORM
   vertical-align: middle;
 }
 
-.wodhunttitle {
-  max-width: 100%;
-  max-height: 680px;
-  margin-top: 50px;
-  vertical-align: middle;
-  border: #052614;
-  border-radius: 15px;
-}
 
 #work img.wodhunttitle {
   margin-top: 0px;
