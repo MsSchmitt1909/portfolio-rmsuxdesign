@@ -480,12 +480,11 @@ End of styles for CONTACT FORM
   color: #5D7487;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 10px;
   text-transform: uppercase;
   border: 2px solid #5D7487;
   transition: 0.2s opacity;
-  height: 45px;
+  max-height: 45px;
   display: inline-block;
 }
 
@@ -519,9 +518,28 @@ End of styles for CONTACT FORM
 
 .button.cv:active {
   opacity: 0.6;
-  border-radius: 12px;
+  border-radius: 18px;
 }
-.button.cv:active {
+
+.button.lebenslauf {
+  background-color: #D9D6D5;
+  color: #5D7487;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-transform: uppercase;
+  border: 2px solid #5D7487;
+  transition: 0.2s opacity;
+  display: flex;
+  justify-content: center;
+}
+
+.button.lebenslauf:hover {
+  background-color: #5D7487;
+  color: #FFFCFA;
+}
+
+.button.lebenslauf:active {
   opacity: 0.6;
   border-radius: 18px;
 }
@@ -653,14 +671,6 @@ End of styles for CONTACT FORM
   vertical-align: middle;
 }
 
-.wodhunttitle {
-  max-width: 100%;
-  max-height: 680px;
-  margin-top: 50px;
-  vertical-align: middle;
-  border: #052614;
-  border-radius: 15px;
-}
 
 #work img.wodhunttitle {
   margin-top: 0px;
