@@ -810,7 +810,60 @@ Separate Styles for VOCABQUEST
   margin-bottom: 30px;
   border-radius: 10px;
 }
+/* ==============================
+Separate Styles for LOT1
+================================= */
+body#lot1 {
+  background: #f3f3f3;
+  font-family: 'century gothic', sans-serif;
+  font-size: 12px; /* Sets the font size to 12px */
+  font-weight: 400; /* Sets the font weight to 300 */
+  line-height: 1.2; /* Sets the line-height to 1.2 * the font-size */
+  color: #455A64;
+  }
 
+ #lot1 h2, #lot1  h3, #lot1 h4 {
+   font-family: 'futura';
+  }
+
+  #lot1 h1 {
+    font-size: 2.0em;
+    font-weight: 700;
+    color: #4C5451;
+    text-align: center;
+    margin: 10px;
+    font-family: 'helvetica';
+  }
+
+  #lot1 h2 {
+    font-size: 1.75em;
+    font-weight: 700;
+    color: #707674;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+    display: inline-flex;
+  }
+
+  #lot1 h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #8D9190;
+    margin: 10px;
+    text-align: center;
+  }
+
+  #lot1 h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+    text-align:center;
+    margin: 10px;
+    color: #8D9190;
+  }
+  
+  #lot1 a {
+  color: #523173;
+  }
 
 /* ==============================
 Medium devices (640px and larger)
