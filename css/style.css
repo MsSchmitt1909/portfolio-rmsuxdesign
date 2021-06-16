@@ -814,12 +814,12 @@ Separate Styles for VOCABQUEST
 Separate Styles for LOT1
 ================================= */
 body#lot1 {
-  background: #f3f3f3;
+  background: #fafafa;
   font-family: 'century gothic', sans-serif;
   font-size: 12px; /* Sets the font size to 12px */
   font-weight: 400; /* Sets the font weight to 300 */
   line-height: 1.2; /* Sets the line-height to 1.2 * the font-size */
-  color: #455A64;
+  color: #111;
   }
 
  #lot1 h2, #lot1  h3, #lot1 h4 {
@@ -829,7 +829,7 @@ body#lot1 {
   #lot1 h1 {
     font-size: 2.0em;
     font-weight: 700;
-    color: #4C5451;
+    color: #F709A5;
     text-align: center;
     margin: 10px;
     font-family: 'helvetica';
@@ -838,7 +838,7 @@ body#lot1 {
   #lot1 h2 {
     font-size: 1.75em;
     font-weight: 700;
-    color: #707674;
+    color: #F953C0;
     margin: 10px;
     text-align: center;
     padding-top: 20px;
@@ -848,7 +848,7 @@ body#lot1 {
   #lot1 h3 {
     font-size: 1.5em;
     font-weight: 400;
-    color: #8D9190;
+    color: #333333;
     margin: 10px;
     text-align: center;
   }
@@ -862,20 +862,25 @@ body#lot1 {
   }
   
   #lot1 a {
-  color: #523173;
+  color: #F709A5;
   }
 
   #lot1 .container-lot1 {
-  background-color:  #f3f3f3;
+  background-color:  #fafafa;
   border-radius: 10px;
   box-shadow: 0px 10px 10px 0px rgba(88, 98, 91, 0.33);
   padding: 15px 0;
-  padding-top: 70px;
   display: flex;
   justify-content: center;
   width: 100%;
   margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  }
+
+  #lot1 .hero-lot1 {
+  padding-top: 70px;
+  background-color: #fafafa;
+  }
 }
 /* ==============================
 Medium devices (640px and larger)
@@ -991,6 +996,15 @@ Medium devices (640px and larger)
     .work-img {
       max-width: fit-content;
     }
+
+    body#lot1 {
+      background: #fafafa;
+      font-family: 'century gothic', sans-serif;
+      font-size: 14px; /* Sets the font size to 12px */
+      font-weight: 400; /* Sets the font weight to 300 */
+      line-height: 1.4; /* Sets the line-height to 1.2 * the font-size */
+      color: #111;
+      }
 }
 
 /* ==============================
@@ -1075,6 +1089,15 @@ Large devices (1024px or larger)
       padding-top: 10px;
       padding-bottom: 10px;
     }
+
+    body#lot1 {
+      background: #fafafa;
+      font-family: 'century gothic', sans-serif;
+      font-size: 16px; /* Sets the font size to 12px */
+      font-weight: 400; /* Sets the font weight to 300 */
+      line-height: 1.75; /* Sets the line-height to 1.2 * the font-size */
+      color: #111;
+      }
 }
 
 /* Border X get width  */
@@ -1153,6 +1176,15 @@ X-large devices (1440px or larger)
     .wodhunttitle {
       margin-top: 110px;
     }
+
+    body#lot1 {
+      background: #fafafa;
+      font-family: 'century gothic', sans-serif;
+      font-size: 20px; /* Sets the font size to 12px */
+      font-weight: 400; /* Sets the font weight to 300 */
+      line-height: 2.0; /* Sets the line-height to 1.2 * the font-size */
+      color: #111;
+      }
 
   .minimockup {
     max-width: 220px;
