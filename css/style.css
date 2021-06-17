@@ -1057,7 +1057,7 @@ Medium devices (640px and larger)
     body#lot1 {
       background: #fafafa;
       font-family: 'century gothic', sans-serif;
-      font-size: 14px; /* Sets the font size to 12px */
+      font-size: 14px; /* Sets the font size to 14px */
       font-weight: 400; /* Sets the font weight to 300 */
       line-height: 1.4; /* Sets the line-height to 1.2 * the font-size */
       color: #111;
@@ -1150,7 +1150,7 @@ Large devices (1024px or larger)
     body#lot1 {
       background: #fafafa;
       font-family: 'century gothic', sans-serif;
-      font-size: 16px; /* Sets the font size to 12px */
+      font-size: 16px; /* Sets the font size to 16px */
       font-weight: 400; /* Sets the font weight to 300 */
       line-height: 1.75; /* Sets the line-height to 1.2 * the font-size */
       color: #111;
@@ -1237,7 +1237,7 @@ X-large devices (1440px or larger)
     body#lot1 {
       background: #fafafa;
       font-family: 'century gothic', sans-serif;
-      font-size: 20px; /* Sets the font size to 12px */
+      font-size: 20px; /* Sets the font size to 20px */
       font-weight: 400; /* Sets the font weight to 300 */
       line-height: 2.0; /* Sets the line-height to 1.2 * the font-size */
       color: #111;
