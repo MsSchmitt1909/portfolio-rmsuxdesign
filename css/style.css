@@ -257,7 +257,7 @@ nav ul {
   padding: 0;
   margin: 0;
 }
-
+/*
 nav ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -276,7 +276,7 @@ nav ul > li > a:visited {
   color: #FFFCFA;
   text-decoration: underline;
 }
-
+*/
 
 .copyright {
   background-color: #617769;
@@ -323,7 +323,7 @@ nav ul > li > a:visited {
 .socials > ul > li > a:hover {
   text-decoration: underline;
 }
-
+/*
 .navtoggle, .navtoggle.responsive {
   position: relative;
   display: flex;
@@ -358,7 +358,7 @@ nav ul > li > a:visited {
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
-
+*/
 #hero p {
   color: #FFFCFA;
 }
@@ -767,6 +767,7 @@ Separate Styles for VOCABQUEST
 
 #vocabquest h1 {
     background: -webkit-linear-gradient(#FFC727, #EB9481);
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -810,6 +811,7 @@ Separate Styles for VOCABQUEST
   margin-bottom: 30px;
   border-radius: 10px;
 }
+
 /* ==============================
 Separate Styles for LOT1
 ================================= */
@@ -881,7 +883,62 @@ body#lot1 {
   padding-top: 70px;
   background-color: #fafafa;
   }
+
+nav ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FFFCFA;
+  position: relative;
 }
+
+nav ul > li > a:hover,
+a:active {
+  text-decoration: none;
+  color: #FFFCFA;
+}
+
+nav ul > li > a:visited {
+  color: #FFFCFA;
+  text-decoration: underline;
+}
+
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(250, 215, 197, 1);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -1097,38 +1154,38 @@ Large devices (1024px or larger)
       font-weight: 400; /* Sets the font weight to 300 */
       line-height: 1.75; /* Sets the line-height to 1.2 * the font-size */
       color: #111;
-      }
+    }
 }
 
-/* Border X get width  */
-div.borderXwidth a:before, div.borderXwidth a:after
-{
-    position: absolute;
-    opacity: 0;
-    width: 0%;
-    height: 2px;
-    content: '';
-    background: #FFCCB3;
-    transition: all 0.3s;
-}
+  /* Border X get width  */
+  div.borderXwidth a:before, div.borderXwidth a:after
+  {
+      position: absolute;
+      opacity: 0;
+      width: 0%;
+      height: 2px;
+      content: '';
+      background: #FFCCB3;
+      transition: all 0.3s;
+  }
 
-div.borderXwidth a:before
-{
-    left: 0px;
-    top: 0px;
-}
+  div.borderXwidth a:before
+  {
+      left: 0px;
+      top: 0px;
+  }
 
-div.borderXwidth a:after
-{
-    right: 0px;
-    bottom: 0px;
-}
+  div.borderXwidth a:after
+  {
+      right: 0px;
+      bottom: 0px;
+  }
 
-div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
-{
-    opacity: 1;
-    width: 100%;
-}
+  div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+  {
+      opacity: 1;
+      width: 100%;
+  }
 
 /* ==============================
 X-large devices (1440px or larger)
@@ -1487,3 +1544,4 @@ X-large devices (1440px or larger)
 .thankyou h2 {
 color: #FFFCFA;
 }
+
